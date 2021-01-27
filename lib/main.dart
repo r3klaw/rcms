@@ -1,14 +1,3 @@
-/// Flutter code sample for BottomNavigationBar
-
-// This example shows a [BottomNavigationBar] as it is used within a [Scaffold]
-// widget. The [BottomNavigationBar] has three [BottomNavigationBarItem]
-// widgets and the [currentIndex] is set to index 0. The selected item is
-// amber. The `_onItemTapped` function changes the selected item's index
-// and displays a corresponding message in the center of the [Scaffold].
-//
-// ![A scaffold with a bottom navigation bar containing three bottom navigation
-// bar items. The first one is selected.](https://flutter.github.io/assets-for-api-docs/assets/material/bottom_navigation_bar.png)
-
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -52,6 +41,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       'Index 2: History',
       style: optionStyle,
     ),
+    Text(
+      'Index 3: User',
+      style: optionStyle,
+    ),
   ];
 
   void _onItemTapped(int index) {
@@ -65,6 +58,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Bdm Self Service App'),
+        backgroundColor: Colors.green
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
@@ -74,6 +68,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
+            backgroundColor: Colors.green
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
@@ -82,6 +77,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.history),
             label: 'History',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person),
+            label: 'User',
           ),
         ],
         currentIndex: _selectedIndex,
