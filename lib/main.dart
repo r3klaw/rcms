@@ -34,15 +34,19 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       style: optionStyle,
     ),
     Text(
-      'Index 1: Assets',
+      'Index 1: Bills',
       style: optionStyle,
     ),
     Text(
-      'Index 2: History',
+      'Index 2: Assets',
       style: optionStyle,
     ),
     Text(
-      'Index 3: User',
+      'Index 3: History',
+      style: optionStyle,
+    ),
+    Text(
+      'Index 4: User',
       style: optionStyle,
     ),
   ];
@@ -69,6 +73,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             icon: Icon(Icons.home),
             label: 'Home',
             backgroundColor: Colors.green
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.payment),
+            label: 'Bills',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
