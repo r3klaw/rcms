@@ -14,16 +14,22 @@ class _SigninState extends State<Signin> {
         centerTitle: true,
         backgroundColor: Colors.blue
       ),
-      body: TextFormField(
+      body: Container(
+        child: Column(
+          children: <Widget>[
+            TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter Username or Email'
                     ),
                     ),
-                    body: TextFormField(
+                    TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter Password'
                     ),
                     ),
+          ],
+        ),
+      ),
     );
   }
 }
