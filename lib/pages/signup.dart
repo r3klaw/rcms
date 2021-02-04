@@ -18,21 +18,26 @@ class _SignupState extends State<Signup> {
                     decoration: InputDecoration(
                     labelText: 'Enter your fullname'
                     ),
+                    ),
                     TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter your email address'
+                    ),
                     ),
                     TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter your Phone number'
                     ),
+                    ),
                     TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Create password'
                     ),
+                    ),
                     TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Confirm Password'
+                    ),
                     ),
     );
   }
