@@ -60,6 +60,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Bdm Self Service App'),
+        centerTitle: true,
         backgroundColor: Colors.blue
       ),
       body: Center(
@@ -70,23 +71,27 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
-            backgroundColor: Colors.green
+            backgroundColor: Colors.blue
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.payment),
             label: 'Bills',
+            backgroundColor: Colors.blue
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
             label: 'Assets',
+            backgroundColor: Colors.blue
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.history),
             label: 'History',
+            backgroundColor: Colors.blue
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'User',
+            backgroundColor: Colors.blue
           ),
         ],
         currentIndex: _selectedIndex,
