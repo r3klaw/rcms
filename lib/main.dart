@@ -7,7 +7,7 @@ import 'package:rcms/pages/resetpassword.dart';
 void main() => runApp(MaterialApp(
   // home: Home(),
   routes: {
-    '/': (context) => Signin(),
+    '/': (context) => Home(),
     // '/signup': (context) => Signin(),
     '/resetpassword': (context) => Reset(),
   },
