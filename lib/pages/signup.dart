@@ -14,7 +14,10 @@ class _SignupState extends State<Signup> {
         centerTitle: true,
         backgroundColor: Colors.blue
       ),
-      body: TextFormField(
+      body: Container(
+        child: Column(
+          children: <Widget>[
+            TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter your fullname'
                     ),
@@ -39,6 +42,9 @@ class _SignupState extends State<Signup> {
                     labelText: 'Confirm Password'
                     ),
                     ),
+          ],
+        ),
+      ),
     );
   }
 }
