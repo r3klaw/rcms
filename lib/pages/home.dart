@@ -60,7 +60,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Bdm Self Service App'),
-        backgroundColor: Colors.green
+        backgroundColor: Colors.blue
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
