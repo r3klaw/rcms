@@ -18,9 +18,11 @@ class _SigninState extends State<Signin> {
                     decoration: InputDecoration(
                     labelText: 'Enter Username or Email'
                     ),
+                    ),
                     body: TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter Password'
+                    ),
                     ),
     );
   }
