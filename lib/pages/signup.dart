@@ -17,9 +17,9 @@ class _SignupState extends State<Signup> {
       body: Container(
         child: Column(
           children: <Widget>[
-            child: CircleAvatar(
-                    backgroundImage: AssetImage('assets/rcms.png'),
-                    radius: 40.0,
+            // child: CircleAvatar(
+            //         backgroundImage: AssetImage('assets/rcms.png'),
+            //         radius: 40.0,
             TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter your fullname'
