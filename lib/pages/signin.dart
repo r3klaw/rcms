@@ -26,18 +26,23 @@ class _SigninState extends State<Signin> {
                     radius: 40.0,
                 ),
                 ),
-                Divider(
-                    height: 90.0,
-                    color: Colors.grey[800],
-                ),
+                // Divider(
+                //     height: 90.0,
+                //     color: Colors.grey[800],
+                // ),
                 Text(
-                    'NAME',
+                    'FULL NAME',
                     style: TextStyle(
-                        color: Colors.grey,
+                        // color: Colors.grey,
                         letterSpacing: 2.0,
                     ),
                 ),
                 SizedBox(height: 10.0),
+                TextFormField(
+                decoration: InputDecoration(
+                labelText: 'Enter Username or Email'
+                ),
+                ),
                 Text(
                     'David Rashid',
                     style: TextStyle(
@@ -73,6 +78,11 @@ class _SigninState extends State<Signin> {
                             color: Colors.grey[400],
                         ),
                         SizedBox(width: 10.0),
+                        TextFormField(
+                        decoration: InputDecoration(
+                        labelText: 'Enter Username or Email'
+                        ),
+                        ),
                         Text(
                             'rashid.david12@gmail.com',
                             style: TextStyle(
