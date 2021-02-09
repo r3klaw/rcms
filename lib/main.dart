@@ -3,7 +3,7 @@ import 'package:rcms/pages/home.dart';
 import 'package:rcms/pages/signup.dart';
 import 'package:rcms/pages/signin.dart';
 import 'package:rcms/pages/resetpassword.dart';
-import 'package:rcms/pages/resetsuccess';
+import 'package:rcms/pages/resetsuccess.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
