@@ -26,7 +26,7 @@ class _SigninState extends State<Signin> {
                     radius: 40.0,
                 ),
                 ),
-                
+
                 SizedBox(height: 10.0),
                 TextFormField(
                 decoration: InputDecoration(
@@ -39,6 +39,10 @@ class _SigninState extends State<Signin> {
                 decoration: InputDecoration(
                 labelText: 'Enter Password'
                 ),
+                ),
+                FlatButton(
+                onPressed: () {},
+                child: Text('login'),
                 ),
                     ],
                 ),
