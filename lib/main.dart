@@ -3,6 +3,7 @@ import 'package:rcms/pages/home.dart';
 import 'package:rcms/pages/signup.dart';
 import 'package:rcms/pages/signin.dart';
 import 'package:rcms/pages/resetpassword.dart';
+import 'package:rcms/pages/resetsuccess';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
@@ -12,6 +13,7 @@ void main() => runApp(MaterialApp(
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
     '/resetpassword': (context) => ResetPassword(),
+    '/resetsuccess': (context) => Resetsuccess(),
   },
 ));
 
