@@ -43,6 +43,7 @@ class _SigninState extends State<Signin> {
                 FlatButton(
                 onPressed: () {},
                 child: Text('login'),
+                color: Colors.blue,
                 ),
                     ],
                 ),
