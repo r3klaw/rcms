@@ -18,6 +18,7 @@ class _SigninState extends State<Signin> {
         child: Column(
           children: <Widget>[
             TextFormField(
+                    Text('name'),
                     decoration: InputDecoration(
                     labelText: 'Enter Username or Email'
                     ),
