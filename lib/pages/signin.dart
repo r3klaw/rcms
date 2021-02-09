@@ -36,7 +36,9 @@ class _SigninState extends State<Signin> {
             ),
             SizedBox(height: 20.0),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/home');
+              },
               child: Text('login'),
               color: Colors.green,
               minWidth: 300.0,
@@ -44,7 +46,9 @@ class _SigninState extends State<Signin> {
             SizedBox(height: 20.0),
             Text('Forgot Password?'),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/resetpassword');
+              },
               child: Text('Reset Password'),
               color: Colors.green,
               minWidth: 200.0,
@@ -52,7 +56,9 @@ class _SigninState extends State<Signin> {
             SizedBox(height: 20.0),
             Text('Do not have an account yet?'),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/signup');
+              },
               child: Text('Sign Up'),
               color: Colors.green,
               minWidth: 200.0,
