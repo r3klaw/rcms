@@ -15,7 +15,7 @@ class _SigninState extends State<Signin> {
         backgroundColor: Colors.blue
       ),
       body: CircleAvatar(
-      backgroundImage: Image.asset('rcms.png'),
+      backgroundImage: AssetImage('rcms.png'),
       ),
       // body: Container(
       //   child: Column(
