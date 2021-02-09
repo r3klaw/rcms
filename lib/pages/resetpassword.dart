@@ -28,34 +28,15 @@ class _ResetPasswordState extends State<ResetPassword> {
             ),
             SizedBox(height: 10.0),
             TextFormField(
-              decoration: InputDecoration(labelText: 'Enter Username or Email'),
+              decoration: InputDecoration(labelText: 'Enter Email'),
             ),
-            SizedBox(height: 10.0),
-            TextFormField(
-              decoration: InputDecoration(labelText: 'Enter Password'),
-            ),
+            
             SizedBox(height: 20.0),
-            FlatButton(
-              onPressed: () {},
-              child: Text('login'),
-              color: Colors.green,
-              minWidth: 300.0,
-            ),
-            SizedBox(height: 20.0),
-            Text('Forgot Password?'),
             FlatButton(
               onPressed: () {},
               child: Text('Reset Password'),
               color: Colors.green,
-              minWidth: 200.0,
-            ),
-            SizedBox(height: 20.0),
-            Text('Do not have an account yet?'),
-            FlatButton(
-              onPressed: () {},
-              child: Text('SignUp'),
-              color: Colors.green,
-              minWidth: 200.0,
+              minWidth: 300.0,
             ),
           ],
         ),
