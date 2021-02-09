@@ -11,7 +11,7 @@ void main() => runApp(MaterialApp(
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
-    '/resetpassword': (context) => Reset(),
+    // '/resetpassword': (context) => Reset(),
   },
 ));
 
