@@ -8,7 +8,7 @@ import 'package:rcms/pages/resetsuccess';
 void main() => runApp(MaterialApp(
   // home: Home(),
   routes: {
-    '/': (context) => ResetPassword(),
+    '/': (context) => Resetsuccess(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
