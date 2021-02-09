@@ -7,6 +7,7 @@ import 'package:rcms/pages/resetsuccess.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
+  // initialRoute: Signin(),
   routes: {
     '/': (context) => Signin(),
     '/home': (context) => Home(),
