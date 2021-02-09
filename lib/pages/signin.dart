@@ -19,6 +19,7 @@ class _SigninState extends State<Signin> {
           children: <Widget>[
             TextFormField(
                     decoration: InputDecoration(
+                    BorderRadius.circular(radius)
                     labelText: 'Enter Username or Email'
                     ),
                     ),
