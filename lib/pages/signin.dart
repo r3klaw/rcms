@@ -40,6 +40,7 @@ class _SigninState extends State<Signin> {
                 labelText: 'Enter Password'
                 ),
                 ),
+                SizedBox(height: 20.0),
                 FlatButton(
                 onPressed: () {},
                 child: Text('login'),
