@@ -25,7 +25,7 @@ class _ResetsuccessState extends State<Resetsuccess> {
               ),
             ),
             SizedBox(height: 10.0),
-            Text('Password Reset Success', color: Colors.blue),
+            Text('Password Reset Success'),
             SizedBox(height: 10.0),
             Text('Password reset instruction have been sent to your email. Check your email and use the link to reset your password'),
             SizedBox(height: 20.0),
