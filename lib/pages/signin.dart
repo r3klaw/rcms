@@ -13,9 +13,11 @@ class _SigninState extends State<Signin> {
         title: const Text('Bdm Self Service App'),
         centerTitle: true,
         backgroundColor: Colors.blue
+        elevetion: 0.0,
       ),
       body: CircleAvatar(
       backgroundImage: AssetImage('rcms.png'),
+      radius: 40.0,
       ),
       // body: Container(
       //   child: Column(
