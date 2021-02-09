@@ -48,7 +48,9 @@ class _SignupState extends State<Signup> {
             ),
             SizedBox(height: 20.0),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/signin');
+              },
               child: Text('Sign Up'),
               color: Colors.green,
               minWidth: 300.0,
@@ -56,7 +58,9 @@ class _SignupState extends State<Signup> {
             SizedBox(height: 20.0),
             Text('Already have an account?'),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/home');
+              },
               child: Text('Sign In'),
               color: Colors.green,
               minWidth: 200.0,
