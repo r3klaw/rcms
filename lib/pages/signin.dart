@@ -19,7 +19,7 @@ class _SigninState extends State<Signin> {
           children: <Widget>[
             child: CircleAvatar(
                     backgroundImage: AssetImage('assets/rcms.png'),
-                    radius: 40.0,
+                    radius: 40.0,),
             TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter Username or Email'
