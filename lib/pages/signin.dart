@@ -23,7 +23,7 @@ class _SigninState extends State<Signin> {
                 Center(
                     child: CircleAvatar(
                     backgroundImage: AssetImage('assets/rcms.png'),
-                    radius: 40.0,
+                    radius: 60.0,
                 ),
                 ),
 
