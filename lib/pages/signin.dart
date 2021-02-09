@@ -53,7 +53,15 @@ class _SigninState extends State<Signin> {
                 onPressed: () {},
                 child: Text('Reset Password'),
                 color: Colors.green,
-                minWidth: 300.0,
+                minWidth: 200.0,
+                ),
+                SizedBox(height: 20.0),
+                Text('Do not have an account yet?'),
+                FlatButton(
+                onPressed: () {},
+                child: Text('SignUp'),
+                color: Colors.green,
+                minWidth: 200.0,
                 ),
 
                     ],
