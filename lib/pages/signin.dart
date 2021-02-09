@@ -15,11 +15,11 @@ class _SigninState extends State<Signin> {
         backgroundColor: Colors.blue
       ),
       body: Container(
-        child: Column(
-          children: <Widget>[
-            child: CircleAvatar(
+        child: CircleAvatar(
                     backgroundImage: AssetImage('assets/rcms.png'),
                     radius: 40.0,),
+        child: Column(
+          children: <Widget>[
             TextFormField(
                     decoration: InputDecoration(
                     labelText: 'Enter Username or Email'
