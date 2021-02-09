@@ -8,12 +8,12 @@ import 'package:rcms/pages/resetsuccess.dart';
 void main() => runApp(MaterialApp(
   // home: Home(),
   routes: {
-    '/': (context) => Resetsuccess(),
+    '/': (context) => Signin(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
     '/resetpassword': (context) => ResetPassword(),
-    '/resetsuccess': (context) => Resetsuccess(),
+    // '/resetsuccess': (context) => Resetsuccess(),
   },
 ));
 
