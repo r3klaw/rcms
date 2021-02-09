@@ -14,23 +14,26 @@ class _SigninState extends State<Signin> {
         centerTitle: true,
         backgroundColor: Colors.blue
       ),
-      body: Container(
-        child: Column(
-          children: <Widget>[
-            TextFormField(
-                    decoration: InputDecoration(
-                    BorderRadius.circular(radius)
-                    labelText: 'Enter Username or Email'
-                    ),
-                    ),
-                    TextFormField(
-                    decoration: InputDecoration(
-                    labelText: 'Enter Password'
-                    ),
-                    ),
-          ],
-        ),
+      CircleAvatar(
+      backgroundImage: Image.asset('rcms.png'),
       ),
+      // body: Container(
+      //   child: Column(
+      //     children: <Widget>[
+      //       TextFormField(
+      //               decoration: InputDecoration(
+      //               BorderRadius.circular(radius)
+      //               labelText: 'Enter Username or Email'
+      //               ),
+      //               ),
+      //               TextFormField(
+      //               decoration: InputDecoration(
+      //               labelText: 'Enter Password'
+      //               ),
+      //               ),
+      //     ],
+      //   ),
+      // ),
     );
   }
 }
