@@ -8,7 +8,7 @@ void main() => runApp(MaterialApp(
   // home: Home(),
   routes: {
     '/': (context) => Home(),
-    // '/signup': (context) => Signin(),
+    '/signup': (context) => Signin(),
     '/resetpassword': (context) => Reset(),
   },
 ));
