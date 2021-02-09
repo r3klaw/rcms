@@ -26,30 +26,14 @@ class _SigninState extends State<Signin> {
                     radius: 40.0,
                 ),
                 ),
-                // Divider(
-                //     height: 90.0,
-                //     color: Colors.grey[800],
-                // ),
-                Text(
-                    'USERNAME OR EMAIL',
-                    style: TextStyle(
-                        // color: Colors.grey,
-                        letterSpacing: 2.0,
-                    ),
-                ),
+                
                 SizedBox(height: 10.0),
                 TextFormField(
                 decoration: InputDecoration(
                 labelText: 'Enter Username or Email'
                 ),
                 ),
-                Text(
-                    'PASSWORD',
-                    style: TextStyle(
-                        // color: Colors.grey,
-                        letterSpacing: 2.0,
-                    ),
-                ),
+                
                 SizedBox(height: 10.0),
                 TextFormField(
                 decoration: InputDecoration(
