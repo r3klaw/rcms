@@ -45,7 +45,7 @@ class _SigninState extends State<Signin> {
                 onPressed: () {},
                 child: Text('login'),
                 color: Colors.blue,
-                minWidth: 200.0,
+                minWidth: 300.0,
                 ),
                     ],
                 ),
