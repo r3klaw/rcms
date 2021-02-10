@@ -48,6 +48,9 @@ class _SignupState extends State<Signup> {
             ),
             SizedBox(height: 20.0),
             FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
               onPressed: () {
                 Navigator.pushNamed(context, '/signin');
               },
@@ -58,6 +61,9 @@ class _SignupState extends State<Signup> {
             SizedBox(height: 20.0),
             Text('Already have an account?'),
             FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },

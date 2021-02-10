@@ -32,6 +32,9 @@ class _ResetPasswordState extends State<ResetPassword> {
             ),
             SizedBox(height: 20.0),
             FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
               onPressed: () {
                 Navigator.pushNamed(context, '/resetsuccess');
               },
