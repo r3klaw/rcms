@@ -36,6 +36,9 @@ class _SigninState extends State<Signin> {
             ),
             SizedBox(height: 20.0),
             FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
               onPressed: () {
                 Navigator.pushNamed(context, '/home');
               },
@@ -59,6 +62,9 @@ class _SigninState extends State<Signin> {
             SizedBox(height: 20.0),
             Text('Do not have an account yet?'),
             FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
               onPressed: () {
                 Navigator.pushNamed(context, '/signup');
               },
