@@ -31,6 +31,14 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       'Index 0: Home',
       style: optionStyle,
     ),
+    Row(
+  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+  children: [
+    Image.asset('assets/rcmsbg.png'),
+    Image.asset('assets/rcmsbg.png'),
+    Image.asset('assets/rcmsbg.png'),
+  ],
+);
     Text(
       'Index 1: Bills',
       style: optionStyle,
