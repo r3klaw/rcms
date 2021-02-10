@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Success extends StatefulWidget {
   @override
   _SuccessState createState() => _SuccessState();
@@ -25,10 +27,10 @@ class _SuccessState extends State<Success> {
               ),
             ),
             SizedBox(height: 10.0),
-            // Text('Password Reset Success'),
-            // SizedBox(height: 10.0),
-            // Text('Password reset instruction have been sent to your email. Check your email and use the link to reset your password'),
-            // SizedBox(height: 20.0),
+            Text('Password Reset Success'),
+            SizedBox(height: 10.0),
+            Text('Password reset instruction have been sent to your email. Check your email and use the link to reset your password'),
+            SizedBox(height: 20.0),
             FlatButton(
               onPressed: () {},
               child: Text('Sign In'),
