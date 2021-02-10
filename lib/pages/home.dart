@@ -38,7 +38,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     Image.asset('assets/rcmsbg.png'),
     Image.asset('assets/rcmsbg.png'),
   ],
-);
+),
     Text(
       'Index 1: Bills',
       style: optionStyle,
