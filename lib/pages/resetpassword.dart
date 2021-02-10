@@ -30,11 +30,10 @@ class _ResetPasswordState extends State<ResetPassword> {
             TextFormField(
               decoration: InputDecoration(labelText: 'Enter Email'),
             ),
-            
             SizedBox(height: 20.0),
             FlatButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/sucess');
+                Navigator.pushNamed(context, '/success');
               },
               child: Text('Reset Password'),
               color: Colors.green,
