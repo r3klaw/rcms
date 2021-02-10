@@ -22,7 +22,7 @@ class _ResetPasswordState extends State<ResetPassword> {
           children: <Widget>[
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage('assets/rcms.png'),
+                backgroundImage: AssetImage('assets/rcmsbg.png'),
                 radius: 60.0,
               ),
             ),

@@ -34,9 +34,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     Row(
   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
   children: [
-    Image.asset('assets/rcmsbg.png'),
-    Image.asset('assets/rcmsbg.png'),
-    Image.asset('assets/rcmsbg.png'),
+    AssetImage('assets/rcmsbg.png'),
+    AssetImage('assets/rcmsbg.png'),
+    AssetImage('assets/rcmsbg.png'),
   ],
 ),
     Text(
