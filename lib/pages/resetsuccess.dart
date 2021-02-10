@@ -32,7 +32,9 @@ class _SuccessState extends State<Success> {
             Text('Password reset instruction have been sent to your email. Check your email and use the link to reset your password'),
             SizedBox(height: 20.0),
             FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, '/signin');
+              },
               child: Text('Sign In'),
               color: Colors.green,
               minWidth: 300.0,
