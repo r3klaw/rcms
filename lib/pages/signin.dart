@@ -46,6 +46,9 @@ class _SigninState extends State<Signin> {
             SizedBox(height: 20.0),
             Text('Forgot Password?'),
             FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
               onPressed: () {
                 Navigator.pushNamed(context, '/resetpassword');
               },
