@@ -40,7 +40,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
               color: Colors.green,
               minWidth: 120.0,
             ),
-      SizedBox(width: 100),
+      SizedBox(width: 80),
       FlatButton(
               shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(18.0),
