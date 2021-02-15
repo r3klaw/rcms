@@ -12,7 +12,7 @@ void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => BusinessRenew(),
+    '/': (context) => BusinessInstruction(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
