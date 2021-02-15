@@ -31,11 +31,7 @@ class BusinessInstruction extends StatelessWidget {
             Text('A pop-up message will apear prompting you to confirm payment of renewal  fee of business number business_no1, accept the prompt and enter your EVC pin to complete the transaction. using E-wallet, ### ussd will be diducted from your account.'),
             SizedBox(height: 20.0),
             Text('After successful payment, go to home and click Receipts to print digital Receipt or my bills to check status of all your bills'),
-            
-          ],
-        ),
-      ),
-      BottomNavigationBar(
+            BottomNavigationBar(
   type: BottomNavigationBarType.fixed,
   backgroundColor: Color(0xFF6200EE),
   selectedItemColor: Colors.white,
@@ -64,6 +60,9 @@ class BusinessInstruction extends StatelessWidget {
     ),
   ],
 )
+          ],
+        ),
+      ),
     );
   }
 }
