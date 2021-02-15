@@ -47,6 +47,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       'Index 4: User',
       style: optionStyle,
     ),
+    Text(
+      'Index 5: Options',
+      style: optionStyle,
+    ),
   ];
 
   void _onItemTapped(int index) {
@@ -59,9 +63,17 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Icon(Icons.menu),
         title: const Text('Bdm Self Service App'),
         centerTitle: true,
-        backgroundColor: Colors.blue
+        actions: [
+      Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16),
+      child: Icon(Icons.search),
+      ),
+      ],
+        backgroundColor: Colors.blue,
+        elevation: 0.0,
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
@@ -91,6 +103,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'User',
+            backgroundColor: Colors.blue
+          ), 
+          BottomNavigationBarItem(
+            icon: Icon(Icons.more_vert),
+            label: 'options',
             backgroundColor: Colors.blue
           ),
         ],

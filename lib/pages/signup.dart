@@ -10,8 +10,15 @@ class _SignupState extends State<Signup> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Icon(Icons.menu),
         title: const Text('Bdm Self Service App'),
         centerTitle: true,
+        actions: [
+      Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16),
+      child: Icon(Icons.search),
+      ),
+      ],
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
