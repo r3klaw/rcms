@@ -54,7 +54,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
             ),
     ],
   ),
-)
+),
             FlatButton(
               shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(18.0),
