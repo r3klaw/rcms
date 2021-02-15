@@ -5,18 +5,20 @@ import 'package:rcms/pages/signin.dart';
 import 'package:rcms/pages/resetpassword.dart';
 import 'package:rcms/pages/resetsuccess.dart';
 import 'package:rcms/pages/profile.dart';
+import 'package:rcms/pages/businessrenew.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => Signin(),
+    '/': (context) => BusinessRenew(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
     '/resetpassword': (context) => ResetPassword(),
     '/resetsuccess': (context) => Success(),
     '/profile': (context) => Profile(),
+    '/businessrenew': (context) => BusinessRenew(),
   },
 ));
 
