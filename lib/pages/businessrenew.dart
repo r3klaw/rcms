@@ -38,7 +38,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
               },
               child: Text('Cancel'),
               color: Colors.green,
-              minWidth: 100.0,
+              minWidth: 50.0,
             ),
       SizedBox(width: 5),
       FlatButton(
@@ -50,22 +50,11 @@ class _BusinessRenewState extends State<BusinessRenew> {
               },
               child: Text('Continue'),
               color: Colors.green,
-              minWidth: 100.0,
+              minWidth: 50.0,
             ),
-    ],
-  ),
-),
-            FlatButton(
-              shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
-              side: BorderSide(color: Colors.green)),
-              onPressed: () {
-                Navigator.pushNamed(context, '/signin');
-              },
-              child: Text('Sign In'),
-              color: Colors.green,
-              minWidth: 300.0,
+            ],
             ),
+          ),
           ],
         ),
       ),
