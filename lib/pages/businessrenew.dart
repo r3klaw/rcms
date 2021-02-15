@@ -21,9 +21,9 @@ class _BusinessRenewState extends State<BusinessRenew> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SizedBox(height: 10.0),
-            Text('Password Reset Success'),
+            Text('Confirm Payment information'),
             SizedBox(height: 10.0),
-            Text('Password reset instruction have been sent to your email. Check your email and use the link to reset your password'),
+            Text('are you sure you want pay ### usd for license renewal of business_no1? To continue, click on Continue button, and to cancel, click oon the Cancel button'),
             SizedBox(height: 20.0),
             Center(
   child:  Row(

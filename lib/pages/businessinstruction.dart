@@ -18,8 +18,7 @@ class BusinessInstruction extends StatelessWidget {
             SizedBox(height: 10.0),
             Text('Confirm Payment information'),
             SizedBox(height: 10.0),
-            Text('
-            are you sure you want pay ### usd for license renewal of business_no1? To continue, click on Continue button, and to cancel, click oon the Cancel button '),
+            Text('are you sure you want pay ### usd for license renewal of business_no1? To continue, click on Continue button, and to cancel, click oon the Cancel button '),
             SizedBox(height: 20.0),
           ],
         ),
