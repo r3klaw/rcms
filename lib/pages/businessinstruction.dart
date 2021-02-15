@@ -16,10 +16,11 @@ class BusinessInstruction extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SizedBox(height: 10.0),
-            Text('Confirm Payment information'),
+            Text('Payment instruction'),
             SizedBox(height: 10.0),
-            Text('are you sure you want pay ### usd for license renewal of business_no1? To continue, click on Continue button, and to cancel, click oon the Cancel button '),
+            Text('A pop-up message will apear prompting you to confirm payment of renewal  fee of business number business_no1, accept the prompt and enter your EVC pin to complete the transaction. using E-wallet, ### ussd will be diducted from your account.'),
             SizedBox(height: 20.0),
+            Text('After successful payment, go to home and click Receipts to print digital Receipt or my bills to check status of all your bills'),
           ],
         ),
       ),

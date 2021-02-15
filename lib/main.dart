@@ -6,6 +6,7 @@ import 'package:rcms/pages/resetpassword.dart';
 import 'package:rcms/pages/resetsuccess.dart';
 import 'package:rcms/pages/profile.dart';
 import 'package:rcms/pages/businessrenew.dart';
+import 'package:rcms/pages/businessinstruction.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
@@ -19,6 +20,7 @@ void main() => runApp(MaterialApp(
     '/resetsuccess': (context) => Success(),
     '/profile': (context) => Profile(),
     '/businessrenew': (context) => BusinessRenew(),
+    '/businessinstruction': (context) => BusinessInstruction(),
   },
 ));
 
