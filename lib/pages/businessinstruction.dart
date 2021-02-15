@@ -13,7 +13,6 @@ class BusinessInstruction extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 16),
       child: Icon(Icons.search),
       ),
-      Icon(Icons.more_vert),
       ],
         backgroundColor: Colors.blue,
         elevation: 0.0,
