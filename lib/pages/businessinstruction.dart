@@ -8,6 +8,13 @@ class BusinessInstruction extends StatelessWidget {
         leading: Icon(Icons.menu),
         title: const Text('Bdm Self Service App'),
         centerTitle: true,
+        actions: [
+      Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16),
+      child: Icon(Icons.search),
+      ),
+      Icon(Icons.more_vert),
+      ],
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
