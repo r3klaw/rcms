@@ -22,22 +22,6 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      body: ListView(
-  children: [
-    ListTile(
-      title: Text('List item 1'),
-      subtitle: Text('Secondary text'),
-      leading: Icon(Icons.label),
-      trailing: Radio(
-        value: 1,
-        groupValue: groupValue,
-        onChanged: (value) {
-          // Update value.
-        },
-      ),
-    ),
-  ],
-)
     );
   }
 }
