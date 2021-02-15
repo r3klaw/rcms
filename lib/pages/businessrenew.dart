@@ -38,7 +38,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
               },
               child: Text('Cancel'),
               color: Colors.green,
-              minWidth: 50.0,
+              minWidth: 150.0,
             ),
       SizedBox(width: 50),
       FlatButton(
@@ -50,7 +50,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
               },
               child: Text('Continue'),
               color: Colors.green,
-              minWidth: 100.0,
+              minWidth: 150.0,
             ),
             ],
             ),
