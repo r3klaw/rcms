@@ -17,6 +17,10 @@ class BusinessInstruction extends StatelessWidget {
           children: <Widget>[
             SizedBox(height: 10.0),
             Text('Payment instruction'),
+            Divider(
+                    height: 90.0,
+                    color: Colors.grey[800],
+                ),
             SizedBox(height: 10.0),
             Text('A pop-up message will apear prompting you to confirm payment of renewal  fee of business number business_no1, accept the prompt and enter your EVC pin to complete the transaction. using E-wallet, ### ussd will be diducted from your account.'),
             SizedBox(height: 20.0),
