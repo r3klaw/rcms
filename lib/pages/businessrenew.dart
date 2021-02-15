@@ -50,7 +50,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
               },
               child: Text('Continue'),
               color: Colors.green,
-              minWidth: 50.0,
+              minWidth: 100.0,
             ),
             ],
             ),
