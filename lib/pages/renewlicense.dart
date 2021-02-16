@@ -22,8 +22,7 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      body:  Widget _myListView(BuildContext context) {
-      return ListView(
+      body: ListView(
         children: <Widget>[
           ListTile(
             title: Text('Sun'),
