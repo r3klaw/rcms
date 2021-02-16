@@ -28,6 +28,9 @@ class _RenewLicenseState extends State<RenewLicense> {
     Text('Renew License',
     textAlign: TextAlign.center,
     ),
+    Text('Browse through your lincense and renew',
+    textAlign: TextAlign.center,
+    ),
           ListTile(
             title: Text('Business_no1'),
             trailing: Icon(Icons.keyboard_arrow_right),
