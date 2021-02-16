@@ -29,7 +29,9 @@ class _RenewLicenseState extends State<RenewLicense> {
       height: 50,
       color: Colors.amber[600],
       child: const Center(child: Text('Entry A')),
-      onTap: () {},
+      onTap: () {
+        Navigator.pushNamed(context, '/signin');
+      },
       
     ),
     Container(
