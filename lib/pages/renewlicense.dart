@@ -29,7 +29,7 @@ class _RenewLicenseState extends State<RenewLicense> {
             title: Text('Sun'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              print('Sun');
+              Navigator.pushNamed(context, '/signin');
             },
           ),
     Container(
