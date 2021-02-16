@@ -22,31 +22,7 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      body: ListView(
-        children: <Widget>[
-          ListTile(
-            title: Text('Sun'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              print('Sun');
-            },
-          ),
-          ListTile(
-            title: Text('Moon'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              print('Moon');
-            },
-          ),
-          ListTile(
-            title: Text('Star'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              print('Star');
-            },
-          ),
-        ],
-      ),
+     
     }
     );
   }
