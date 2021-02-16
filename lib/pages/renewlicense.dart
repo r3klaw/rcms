@@ -27,7 +27,7 @@ class _RenewLicenseState extends State<RenewLicense> {
   children: <Widget>[
     Text('Renew License',
     textAlign: TextAlign.center,
-    TextStyle(color: Colors.blue),
+    color: Colors.blue,
     ),
           ListTile(
             title: Text('Business_no1'),
