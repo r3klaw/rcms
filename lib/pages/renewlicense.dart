@@ -27,7 +27,7 @@ class _RenewLicenseState extends State<RenewLicense> {
   children: <Widget>[
     Text('Renew License',
     textAlign: TextAlign.center,
-    style: TextStyle(fontSize: 16),
+    style: TextStyle(fontSize: 16, color: Color.blue ),
     ),
     Text('Browse through your lincense and renew',
     textAlign: TextAlign.center,
