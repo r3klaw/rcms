@@ -32,7 +32,7 @@ class _RenewLicenseState extends State<RenewLicense> {
               Navigator.pushNamed(context, '/signin');
             },
           ),
-          Divider(height: 10.0 ),
+          Divider(height: 1.0, color: Colors.black),
           ListTile(
             title: Text('Business_no2'),
             trailing: Icon(Icons.keyboard_arrow_right),
