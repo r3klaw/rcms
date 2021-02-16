@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class BusinessDetail extends StatefulWidget {
@@ -34,10 +35,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
     ),
           ListTile(
             title: Text('Business_no1'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/signin');
-            },
+            subtitle: Text('Secondary text'),
           ),
           ListTile(
             title: Text('Business_no2'),
