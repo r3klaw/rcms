@@ -22,6 +22,19 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
+      appBar: AppBar(
+        leading: Icon(Icons.menu),
+        title: const Text('Bdm Self Service App'),
+        centerTitle: true,
+        actions: [
+      Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16),
+      child: Icon(Icons.search),
+      ),
+      ],
+        backgroundColor: Colors.blue,
+        elevation: 0.0,
+      ),
       body: ListView(
   padding: const EdgeInsets.all(8),
   children: <Widget>[
@@ -32,7 +45,6 @@ class _RenewLicenseState extends State<RenewLicense> {
               Navigator.pushNamed(context, '/signin');
             },
           ),
-          Divider(height: 5.0, color: Colors.black),
           ListTile(
             title: Text('Business_no2'),
             trailing: Icon(Icons.keyboard_arrow_right),
