@@ -34,8 +34,8 @@ class _BusinessDetailState extends State<BusinessDetail> {
     textAlign: TextAlign.center,
     ),
           ListTile(
-            title: Text('Business_no1'),
-            subtitle: Text('Secondary text'),
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
           ),
           ListTile(
             title: Text('Business_no2'),
