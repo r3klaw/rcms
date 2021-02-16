@@ -22,8 +22,6 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-     
-    }
     );
   }
 }
