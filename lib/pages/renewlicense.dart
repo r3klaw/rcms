@@ -25,7 +25,7 @@ class _RenewLicenseState extends State<RenewLicense> {
       body: ListView(
   padding: const EdgeInsets.all(8),
   children: <Widget>[
-    Text('Renew License')
+    Text('Renew License'),
           ListTile(
             title: Text('Business_no1'),
             trailing: Icon(Icons.keyboard_arrow_right),
