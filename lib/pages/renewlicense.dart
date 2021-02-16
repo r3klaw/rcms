@@ -47,7 +47,6 @@ class _RenewLicenseState extends State<RenewLicense> {
           ),
         ],
       ),
-      );
     }
     );
   }
