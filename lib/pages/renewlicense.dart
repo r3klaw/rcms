@@ -26,7 +26,9 @@ class _RenewLicenseState extends State<RenewLicense> {
   padding: const EdgeInsets.all(8),
   children: <Widget>[
     Text('Renew License',
-    textAlign: TextAlign.center,),
+    textAlign: TextAlign.center,
+    TextStyle(color: Colors.blue),
+    ),
           ListTile(
             title: Text('Business_no1'),
             trailing: Icon(Icons.keyboard_arrow_right),
