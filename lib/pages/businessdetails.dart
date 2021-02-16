@@ -25,11 +25,11 @@ class _BusinessDetailState extends State<BusinessDetail> {
       body: ListView(
   padding: const EdgeInsets.all(8),
   children: <Widget>[
-    Text('Renew License',
+    Text('Business_no1',
     textAlign: TextAlign.center,
     style: TextStyle(fontSize: 16),
     ),
-    Text('Browse through your lincense and renew',
+    Text('Your license details and status',
     textAlign: TextAlign.center,
     ),
           ListTile(
