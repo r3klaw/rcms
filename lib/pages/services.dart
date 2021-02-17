@@ -30,6 +30,13 @@ class _ServicesState extends State<Services> {
       width: 160.0,
       height: 50.0,
       color: Colors.red,
+      ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
     ),
     Container(
       width: 160.0,
