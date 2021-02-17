@@ -72,9 +72,9 @@ SizedBox(height: 20.0),
               borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.green)),
               onPressed: () {
-                Navigator.pushNamed(context, '/signin');
+                Navigator.pushNamed(context, '/businessrenew');
               },
-              child: Text('Cancel'),
+              child: Text('Pay via EVC'),
               color: Colors.green,
               minWidth: 120.0,
             ),
@@ -84,9 +84,9 @@ SizedBox(height: 20.0),
               borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.green)),
               onPressed: () {
-                Navigator.pushNamed(context, '/businessinstruction');
+                Navigator.pushNamed(context, '/businessrenew');
               },
-              child: Text('Continue'),
+              child: Text('Pay via E-wallet'),
               color: Colors.green,
               minWidth: 120.0,
             ),
