@@ -23,25 +23,31 @@ class _ServicesState extends State<Services> {
         elevation: 0.0,
       ),
       body: ListView(
+  // This next line does the trick.
   scrollDirection: Axis.horizontal,
-  padding: const EdgeInsets.all(8),
-  // children: <Widget>[
-    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-      context: context,
-      tiles: [
-    ListTile(
-            title: Text('Sun'),
-          ),
-          ListTile(
-            title: Text('Moon'),
-          ),
-          ListTile(
-            title: Text('Star'),
-          ),
-    
+  children: <Widget>[
+    Container(
+      width: 160.0,
+      color: Colors.red,
+    ),
+    Container(
+      width: 160.0,
+      color: Colors.blue,
+    ),
+    Container(
+      width: 160.0,
+      color: Colors.green,
+    ),
+    Container(
+      width: 160.0,
+      color: Colors.yellow,
+    ),
+    Container(
+      width: 160.0,
+      color: Colors.orange,
+    ),
   ],
-).toList(),
-),
+)
     );
   }
 }
