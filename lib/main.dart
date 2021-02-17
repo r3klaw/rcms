@@ -15,6 +15,8 @@ import 'package:rcms/pages/history.dart';
 import 'package:rcms/pages/businessqr.dart';
 import 'package:rcms/pages/myreceipts.dart';
 import 'package:rcms/pages/myassets.dart';
+import 'package:rcms/pages/services.dart';
+import 'package:rcms/pages/license.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
@@ -35,6 +37,8 @@ void main() => runApp(MaterialApp(
     '/businessactive': (context) => BusinessActive(),
     '/businessqr': (context) => BusinessQr(),
     '/myreceipts': (context) => MyReceipts(),
+    '/license': (context) => License(),
+    '/services': (context) => Services(),
   },
 ));
 
