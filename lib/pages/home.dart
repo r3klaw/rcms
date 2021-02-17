@@ -33,6 +33,7 @@ class _HomeState extends State<Home> {
             BottomNavigationBarItem(icon: Icon(Icons.business, size: 30), title: Text('Assets')),
             BottomNavigationBarItem(icon: Icon(Icons.history, size: 30), title: Text('History')),
             BottomNavigationBarItem(icon: Icon(Icons.account_circle, size: 30), title: Text('Profile')),
+            BottomNavigationBarItem(icon: Icon(Icons.more_vert, size: 30), title: Text('More')),
           ],
           selectedItemColor: Colors.green,
           elevation: 5.0,
