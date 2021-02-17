@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class BusinessActive extends StatefulWidget {
+class BusinessQr extends StatefulWidget {
   @override
-  _BusinessActiveState createState() => _BusinessActiveState();
+  _BusinessQrState createState() => _BusinessQrState();
 }
 
-class _BusinessActiveState extends State<BusinessActive> {
+class _BusinessQrState extends State<BusinessQr> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

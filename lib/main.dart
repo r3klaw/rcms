@@ -11,12 +11,16 @@ import 'package:rcms/pages/renewlicense.dart';
 import 'package:rcms/pages/businessdetails.dart';
 import 'package:rcms/pages/mybills.dart';
 import 'package:rcms/pages/businessactive.dart';
+import 'package:rcms/pages/history.dart';
+import 'package:rcms/pages/businessqr.dart';
+import 'package:rcms/pages/myreceipts.dart';
+import 'package:rcms/pages/myassets.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => BusinessActive(),
+    '/': (context) => BusinessQr(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
@@ -29,6 +33,7 @@ void main() => runApp(MaterialApp(
     '/businessdetails': (context) => BusinessDetail(),
     '/mybills': (context) => Mybills(),
     '/businessactive': (context) => BusinessActive(),
+    '/businessqr': (context) => BusinessQr(),
   },
 ));
 
