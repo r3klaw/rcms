@@ -63,7 +63,7 @@ class _BusinessQrState extends State<BusinessQr> {
           QrImage(
           data: "1234567890",
           version: QrVersions.auto,
-          size: 150.0,
+          size: 100.0,
           ),
           SizedBox(height: 20.0),
            Center(
