@@ -32,7 +32,8 @@ class _BusinessDetailState extends State<BusinessDetail> {
     ),
     Text('Your license details and status',
     textAlign: TextAlign.center,
-    Text('Your license details and status',
+    ),
+    Text('license status: Overdue',
     textAlign: TextAlign.center,
     ),
           ListTile(
