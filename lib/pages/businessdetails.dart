@@ -36,7 +36,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
     // Text('license status: Overdue',
     // ),
           ListTile(
-            subtitle: Text('license status: Overdue'),
+            title: Text('license status: Overdue'),
           ),
           ListTile(
             subtitle: Text('Business_no1'),
