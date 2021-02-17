@@ -61,7 +61,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
           ),
       ],
     ),
-    child:  Row(
+    child: const  Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
       FlatButton(
