@@ -11,7 +11,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.menu),
+        // leading: Icon(Icons.menu),
         title: const Text('Bdm Self Service App'),
         centerTitle: true,
         actions: [

@@ -12,7 +12,7 @@ class _BusinessQrState extends State<BusinessQr> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.menu),
+        // leading: Icon(Icons.menu),
         title: const Text('Bdm Self Service App'),
         centerTitle: true,
         actions: [
