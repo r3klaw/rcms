@@ -20,7 +20,7 @@ void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => BusinessQr(),
+    '/': (context) => MyReceipts(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
@@ -34,6 +34,7 @@ void main() => runApp(MaterialApp(
     '/mybills': (context) => Mybills(),
     '/businessactive': (context) => BusinessActive(),
     '/businessqr': (context) => BusinessQr(),
+    '/myreceipts': (context) => MyReceipts(),
   },
 ));
 
