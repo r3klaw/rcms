@@ -14,7 +14,7 @@ void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => BusinessDetail(),
+    '/': (context) => RenewLicense(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
