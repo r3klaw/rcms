@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rcms/pages/signin.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -9,7 +10,7 @@ class _HomeState extends State<Home> {
   int selectedPage = 0;
 
   final _pageOptions = [
-    SignIn(),
+    Signin(),
   ];
 
   @override
