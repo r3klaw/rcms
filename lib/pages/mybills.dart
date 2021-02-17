@@ -39,21 +39,21 @@ class _MybillsState extends State<Mybills> {
             title: Text('Business_no1'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
+              Navigator.pushNamed(context, '/businessactive');
             },
           ),
           ListTile(
             title: Text('StallNo1'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
+              Navigator.pushNamed(context, '/businessactive');
             },
           ),
           ListTile(
             title: Text('ISH2120-21'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
+              Navigator.pushNamed(context, '/businessactive');
             },
           ),
         ],
