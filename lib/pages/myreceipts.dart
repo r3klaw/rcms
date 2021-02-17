@@ -35,6 +35,36 @@ class _MyReceiptsState extends State<MyReceipts> {
             
           ],
         ),
+        DataTable(
+      columns: const <DataColumn>[
+        DataColumn(
+          label: Text(
+            'Name',
+          ),
+        ),
+        DataColumn(
+          label: Text(
+            'Age',
+          ),
+        ),
+      ],
+      rows: const <DataRow>[
+        DataRow(
+          cells: <DataCell>[
+            DataCell(Text('Mohit')),
+            DataCell(Text('23')),
+            DataCell(Text('Professional')),
+          ],
+        ),
+        DataRow(
+          cells: <DataCell>[
+            DataCell(Text('Aditya')),
+            DataCell(Text('24')),
+            DataCell(Text('Associate Professor')),
+          ],
+        ),
+      ],
+    ),
       ),
     );
   }
