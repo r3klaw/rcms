@@ -62,6 +62,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
     hintText: 'Enter Amount to pay',  
   ),  
 ),
+SizedBox(height: 20.0),
            Center(
   child:  Row(
     mainAxisAlignment: MainAxisAlignment.center,
