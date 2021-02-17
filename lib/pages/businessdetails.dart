@@ -33,35 +33,60 @@ class _BusinessDetailState extends State<BusinessDetail> {
     Text('Your license details and status',
     textAlign: TextAlign.center,
     ),
-    // Text('license status: Overdue',
-    // ),
           ListTile(
             title: Text('license status: Overdue'),
           ),
           ListTile(
-            subtitle: Text('Business_no1'),
-            title: Text('Secondary text'),
+            subtitle: Text('Business Owner'),
+            title: Text('Ibrahim Mohamed'),
           ),
           ListTile(
-            subtitle: Text('Business_no1'),
-            title: Text('Secondary text'),
+            subtitle: Text('Business Name'),
+            title: Text('Matalan Ict Services'),
           ),
           ListTile(
-            subtitle: Text('Business_no1'),
-            title: Text('Secondary text'),
+            subtitle: Text('Year Charges'),
+            title: Text('300 USD'),
           ),
           ListTile(
-            subtitle: Text('Business_no1'),
-            title: Text('Secondary text'),
+            subtitle: Text('Last  Billed'),
+            title: Text('2019-9-01 12:23:05'),
           ),
           ListTile(
-            subtitle: Text('Business_no1'),
-            title: Text('Secondary text'),
+            title: Text('E-wallet Balance: 4560 USD'),
           ),
           ListTile(
-            subtitle: Text('Business_no1'),
+            subtitle: Text('Amount to pay'),
             title: Text('Secondary text'),
-          ),  
+          ),
+          child:  Row(
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: <Widget>[
+      FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/signin');
+              },
+              child: Text('Cancel'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
+      SizedBox(width: 70),
+      FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/businessinstruction');
+              },
+              child: Text('Continue'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
+            ],
+            ),
   ],
 ),
     );
