@@ -25,17 +25,18 @@ class _BusinessDetailState extends State<BusinessDetail> {
       ),
       body: ListView(
   padding: const EdgeInsets.all(8),
-  // children: <Widget>[
-    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-      context: context,
-      tiles: [
-    Text('Business_no1',
+  Text('Business_no1',
     textAlign: TextAlign.center,
     style: TextStyle(fontSize: 16),
     ),
     Text('Your license details and status',
     textAlign: TextAlign.center,
     ),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+    
           ListTile(
             title: Text('license status: Overdue'),
           ),
