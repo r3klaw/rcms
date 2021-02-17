@@ -57,7 +57,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
           ),
           TextField (  
   decoration: InputDecoration(  
-    border: InputBorder.none,  
+    border: OutlineInputBorder(),  
     labelText: 'Amount to pay',  
     hintText: 'Enter Amount to pay',  
   ),  
