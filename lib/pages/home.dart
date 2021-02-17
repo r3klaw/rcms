@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home, size: 30), title: Text('Home')),
-            BottomNavigationBarItem(icon: Icon(Icons.mail, size: 30), title: Text('Inbox')),
+            BottomNavigationBarItem(icon: Icon(Icons.business, size: 30), title: Text('Bills')),
             BottomNavigationBarItem(icon: Icon(Icons.account_circle, size: 30), title: Text('Account')),
           ],
           selectedItemColor: Colors.green,
