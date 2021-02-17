@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:qr_flutter/qr_flutter.dart';
+
 
 class BusinessQr extends StatefulWidget {
   @override
@@ -89,6 +91,12 @@ class _BusinessQrState extends State<BusinessQr> {
             ],
             ),
           ),
+          QrImage(
+  data: "1234567890",
+  version: QrVersions.auto,
+  size: 200.0,
+),
+
       ],
     ).toList(),
 ),
