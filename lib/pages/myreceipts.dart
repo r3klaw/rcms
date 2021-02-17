@@ -44,7 +44,6 @@ class _MyReceiptsState extends State<MyReceipts> {
             'Age',
           ),
         ),
-        ......
       ],
       rows: const <DataRow>[
         DataRow(
