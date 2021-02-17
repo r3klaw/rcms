@@ -50,7 +50,7 @@ class _ServicesState extends State<Services> {
               ),
             ],
           ),
-          ListView(
+         rows: ListView(
             scrollDirection: Axis.horizontal,
             children: <Widget>[
               Container(
