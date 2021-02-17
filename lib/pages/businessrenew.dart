@@ -41,7 +41,7 @@ class _BusinessRenewState extends State<BusinessRenew> {
               borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.green)),
               onPressed: () {
-                Navigator.pushNamed(context, '/signin');
+                Navigator.pushNamed(context, '/businessdetails');
               },
               child: Text('Cancel'),
               color: Colors.green,
