@@ -60,7 +60,8 @@ class _BusinessDetailState extends State<BusinessDetail> {
             title: Text('Secondary text'),
           ),
   ],
-  child:  Row(
+),
+child:  Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
       FlatButton(
@@ -88,7 +89,6 @@ class _BusinessDetailState extends State<BusinessDetail> {
             ),
             ],
             ),
-),
     );
   }
 }
