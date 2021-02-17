@@ -28,15 +28,14 @@ class _BusinessDetailState extends State<BusinessDetail> {
   // children: <Widget>[
     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
       context: context,
-      Text('Business_no1',
+      tiles: [
+    Text('Business_no1',
     textAlign: TextAlign.center,
     style: TextStyle(fontSize: 16),
     ),
     Text('Your license details and status',
     textAlign: TextAlign.center,
     ),
-      tiles: [
-    
           ListTile(
             title: Text('license status: Overdue'),
           ),
