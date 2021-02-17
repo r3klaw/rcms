@@ -60,6 +60,11 @@ class _BusinessQrState extends State<BusinessQr> {
             subtitle: Text('Valid  Until'),
             title: Text('2020-9-01 12:23:05'),
           ),
+          QrImage(
+          data: "1234567890",
+          version: QrVersions.auto,
+          size: 200.0,
+          ),
           SizedBox(height: 20.0),
            Center(
   child:  Row(
@@ -91,12 +96,6 @@ class _BusinessQrState extends State<BusinessQr> {
             ],
             ),
           ),
-          QrImage(
-  data: "1234567890",
-  version: QrVersions.auto,
-  size: 200.0,
-),
-
       ],
     ).toList(),
 ),
