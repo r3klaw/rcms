@@ -24,6 +24,7 @@ class _ServicesState extends State<Services> {
       ),
       body: ListView(
   padding: const EdgeInsets.all(8),
+  scrollDirection: Axis.horizontal,
   // children: <Widget>[
     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
       context: context,
