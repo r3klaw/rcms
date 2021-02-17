@@ -9,12 +9,13 @@ import 'package:rcms/pages/businessrenew.dart';
 import 'package:rcms/pages/businessinstruction.dart';
 import 'package:rcms/pages/renewlicense.dart';
 import 'package:rcms/pages/businessdetails.dart';
+import 'package:rcms/pages/mybills.dart';
 
 void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => RenewLicense(),
+    '/': (context) => Mybills(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
@@ -25,6 +26,7 @@ void main() => runApp(MaterialApp(
     '/businessinstruction': (context) => BusinessInstruction(),
     '/renewlicense': (context) => RenewLicense(),
     '/businessdetails': (context) => BusinessDetail(),
+    '/mybills': (context) => Mybills(),
   },
 ));
 

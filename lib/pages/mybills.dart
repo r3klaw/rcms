@@ -56,27 +56,6 @@ class _MybillsState extends State<Mybills> {
               Navigator.pushNamed(context, '/businessdetails');
             },
           ),
-          ListTile(
-            title: Text('Business_no4'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
-            },
-          ),
-          ListTile(
-            title: Text('Business_no5'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
-            },
-          ),
-          ListTile(
-            title: Text('Business_no6'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
-            },
-          ), 
         ],
       ).toList(),
     ),
