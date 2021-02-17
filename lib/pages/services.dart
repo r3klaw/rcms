@@ -28,6 +28,7 @@ class _ServicesState extends State<Services> {
   children: <Widget>[
     Container(
       width: 160.0,
+      height: 50.0,
       color: Colors.red,
     ),
     Container(
