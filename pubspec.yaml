@@ -19,7 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    qr_flutter:
+  qr_flutter:
     git:
       url: git://github.com/lukef/qr.flutter.git
 
