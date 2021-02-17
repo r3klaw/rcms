@@ -24,7 +24,7 @@ class _HomeState extends State<Home> {
         bottomNavigationBar: BottomNavigationBar(
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home, size: 30), title: Text('Home')),
-            BottomNavigationBarItem(icon: Icon(Icons.credit_card, size: 30), title: Text('Bills')),
+            BottomNavigationBarItem(icon: Icon(Icons.monetization_on, size: 30), title: Text('Bills')),
             BottomNavigationBarItem(icon: Icon(Icons.business, size: 30), title: Text('Assets')),
             BottomNavigationBarItem(icon: Icon(Icons.history, size: 30), title: Text('History')),
             BottomNavigationBarItem(icon: Icon(Icons.account_circle, size: 30), title: Text('Profile')),
