@@ -27,10 +27,71 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Home',
-      style: optionStyle,
+    // Text(
+    //   'Index 0: Home',
+    //   style: optionStyle,
+    // ),
+    ListView(
+  padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+    Text('Renew License',
+    textAlign: TextAlign.center,
+    style: TextStyle(fontSize: 16),
     ),
+    Text('Browse through your lincense and renew',
+    textAlign: TextAlign.center,
+    ),
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
+          ListTile(
+            title: Text('Business_no2'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
+          ListTile(
+            title: Text('Business_no3'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
+          ListTile(
+            title: Text('Business_no4'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
+          ListTile(
+            title: Text('Business_no5'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
+          ListTile(
+            title: Text('Business_no6'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ),
+    
+    
+    
+  ],
+).toList(),
+),
     Text(
       'Index 1: Bills',
       style: optionStyle,
