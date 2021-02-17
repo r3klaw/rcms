@@ -59,6 +59,13 @@ class _BusinessDetailState extends State<BusinessDetail> {
             subtitle: Text('Amount to pay'),
             title: Text('Secondary text'),
           ),
+          TextField (  
+  decoration: InputDecoration(  
+    border: InputBorder.none,  
+    labelText: 'Enter Name',  
+    hintText: 'Enter Your Name'  
+  ),  
+);  
            Center(
   child:  Row(
     mainAxisAlignment: MainAxisAlignment.center,
