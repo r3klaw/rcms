@@ -36,7 +36,7 @@ class _BusinessActiveState extends State<BusinessActive> {
     textAlign: TextAlign.center,
     ),
           ListTile(
-            title: Text('license status: Overdue'),
+            title: Text('license status: Active'),
           ),
           ListTile(
             subtitle: Text('Business Owner'),
