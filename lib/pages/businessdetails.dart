@@ -59,9 +59,8 @@ class _BusinessDetailState extends State<BusinessDetail> {
             subtitle: Text('Amount to pay'),
             title: Text('Secondary text'),
           ),
-      ],
-    ),
-    child: const  Row(
+           Center(
+  child:  Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
       FlatButton(
@@ -89,6 +88,9 @@ class _BusinessDetailState extends State<BusinessDetail> {
             ),
             ],
             ),
+          ),
+      ],
+    ),
   );
   }
 }
