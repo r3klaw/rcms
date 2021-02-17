@@ -35,45 +35,6 @@ class _MyReceiptsState extends State<MyReceipts> {
             
           ],
         ),
-        Container(
-  decoration: BoxDecoration(
-    border: Border.all(
-      color: Colors.grey.withOpacity(0.5),
-      width: 1.0,
-    ),
-    borderRadius: BorderRadius.circular(4.0),
-  ),
-  margin: EdgeInsets.all(12),
-  child: Row(
-    children: <Widget>[
-      Padding(
-        padding: EdgeInsets.only(left: 8),
-        child: Icon(
-          Icons.search,
-          color: Colors.grey,
-          size: 20,
-        ),
-      ),
-      new Expanded(
-        child: TextField(
-          keyboardType: TextInputType.text,
-          decoration: InputDecoration(
-            border: InputBorder.none,
-            hintText: "Search by Name",
-            hintStyle: TextStyle(color: Colors.grey),
-            contentPadding:
-                EdgeInsets.symmetric(vertical: 8, horizontal: 8),
-            isDense: true,
-          ),
-          style: TextStyle(
-            fontSize: 14.0,
-            color: Colors.black,
-          ),
-        ),
-      )
-    ],
-  ),
-),
       ),
     );
   }
