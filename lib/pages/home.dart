@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
           ],
           selectedItemColor: Colors.green,
           elevation: 5.0,
-          unselectedItemColor: Colors.green[900],
+          unselectedItemColor: Colors.blue,
           currentIndex: selectedPage,
           backgroundColor: Colors.white,
           onTap: (index){
