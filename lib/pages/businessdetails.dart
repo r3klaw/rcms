@@ -65,7 +65,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
     labelText: 'Enter Name',  
     hintText: 'Enter Your Name'  
   ),  
-);  
+),
            Center(
   child:  Row(
     mainAxisAlignment: MainAxisAlignment.center,
