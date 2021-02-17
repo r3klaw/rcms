@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:rcms/pages/signin.dart';
+import 'package:rcms/pages/businessqr.dart';
+import 'package:rcms/pages/myreceipts.dart';
+import 'package:rcms/pages/myassets.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -10,7 +13,7 @@ class _HomeState extends State<Home> {
   int selectedPage = 0;
 
   final _pageOptions = [
-    Signin(),
+    BusinessQr(),
   ];
 
   @override
