@@ -59,34 +59,7 @@ class _BusinessDetailState extends State<BusinessDetail> {
             subtitle: Text('Amount to pay'),
             title: Text('Secondary text'),
           ),
-          child:  Row(
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: <Widget>[
-      FlatButton(
-              shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
-              side: BorderSide(color: Colors.green)),
-              onPressed: () {
-                Navigator.pushNamed(context, '/signin');
-              },
-              child: Text('Cancel'),
-              color: Colors.green,
-              minWidth: 120.0,
-            ),
-      SizedBox(width: 70),
-      FlatButton(
-              shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
-              side: BorderSide(color: Colors.green)),
-              onPressed: () {
-                Navigator.pushNamed(context, '/businessinstruction');
-              },
-              child: Text('Continue'),
-              color: Colors.green,
-              minWidth: 120.0,
-            ),
-            ],
-            ),
+          
   ],
 ),
     );
