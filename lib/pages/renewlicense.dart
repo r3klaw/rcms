@@ -24,7 +24,10 @@ class _RenewLicenseState extends State<RenewLicense> {
       ),
       body: ListView(
   padding: const EdgeInsets.all(8),
-  children: <Widget>[
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
     Text('Renew License',
     textAlign: TextAlign.center,
     style: TextStyle(fontSize: 16),
@@ -78,6 +81,7 @@ class _RenewLicenseState extends State<RenewLicense> {
     
     
   ],
+).toList(),
 ),
     );
   }
