@@ -9,9 +9,7 @@ class _HomeState extends State<Home> {
   int selectedPage = 0;
 
   final _pageOptions = [
-    HomeScreen(),
-    InboxScreen(),
-    SignInScreen()
+    SignIn(),
   ];
 
   @override
