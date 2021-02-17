@@ -55,15 +55,11 @@ class _BusinessDetailState extends State<BusinessDetail> {
           ListTile(
             title: Text('E-wallet Balance: 4560 USD'),
           ),
-          ListTile(
-            subtitle: Text('Amount to pay'),
-            title: Text('Secondary text'),
-          ),
           TextField (  
   decoration: InputDecoration(  
     border: InputBorder.none,  
-    labelText: 'Enter Name',  
-    hintText: 'Enter Your Name'  
+    labelText: 'Amount to pay',  
+    hintText: 'Enter Amount to pay',  
   ),  
 ),
            Center(
