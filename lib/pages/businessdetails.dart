@@ -32,49 +32,37 @@ class _BusinessDetailState extends State<BusinessDetail> {
     ),
     Text('Your license details and status',
     textAlign: TextAlign.center,
+    Text('Your license details and status',
+    textAlign: TextAlign.center,
     ),
           ListTile(
             subtitle: Text('Business_no1'),
             title: Text('Secondary text'),
           ),
           ListTile(
-            title: Text('Business_no2'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/signin');
-            },
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
           ),
           ListTile(
-            title: Text('Business_no3'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/signin');
-            },
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
           ),
           ListTile(
-            title: Text('Business_no4'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/signin');
-            },
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
           ),
           ListTile(
-            title: Text('Business_no5'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/signin');
-            },
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
           ),
           ListTile(
-            title: Text('Business_no6'),
-            trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/signin');
-            },
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
           ),
-    
-    
-    
+          ListTile(
+            subtitle: Text('Business_no1'),
+            title: Text('Secondary text'),
+          ),  
   ],
 ),
     );
