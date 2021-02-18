@@ -130,8 +130,8 @@ class _MyReceiptsState extends State<MyReceipts> {
             
           ],
         ),
+        Home(),
       ),
-      Home(),
     );
   }
 }
