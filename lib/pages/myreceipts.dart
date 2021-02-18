@@ -61,7 +61,7 @@ class _MyReceiptsState extends State<MyReceipts> {
          DataCell(Text('Matalan ICT')),
          DataCell(Text('BNo 1')),
          DataCell(Text('31/12/020'),
-          onTap: () {
+          // onTap: () {
             // Navigator.pushNamed(context, '/businessqr');}
             ),
        ],
