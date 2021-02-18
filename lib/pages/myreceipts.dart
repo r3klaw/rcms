@@ -124,6 +124,7 @@ class _MyReceiptsState extends State<MyReceipts> {
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
             // SizedBox(height: 20.0),
+            DataTableDemo(),
             
           ],
         ),
