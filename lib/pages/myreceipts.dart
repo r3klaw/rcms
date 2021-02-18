@@ -38,7 +38,7 @@ class _MyReceiptsState extends State<MyReceipts> {
               TextField (  
   decoration: InputDecoration(  
     border: OutlineInputBorder(),
-    Icon(Icons.search),
+    child: Icon(Icons.search),
     labelText: 'Search',  
     hintText: 'Enter search keyword',  
   ),  
