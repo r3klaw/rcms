@@ -4,6 +4,7 @@ import 'package:rcms/pages/myassets.dart';
 import 'package:rcms/pages/history.dart';
 import 'package:rcms/pages/profile.dart';
 import 'package:rcms/pages/services.dart';
+import 'package:rcms/pages/myreceipts.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -19,6 +20,7 @@ class _HomeState extends State<Home> {
     MyAssets(),
     History(),
     Profile(),
+    MyReceipts(),
     PopupMenuButton(
   icon: Icon(Icons.more_vert),
   itemBuilder: (BuildContext context) => <PopupMenuEntry>[
