@@ -34,6 +34,14 @@ class _MyReceiptsState extends State<MyReceipts> {
             Text('My Receipts'),
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
+              
+              TextField (  
+  decoration: InputDecoration(  
+    border: OutlineInputBorder(),  
+    labelText: 'Amount to pay',  
+    hintText: 'Enter Amount to pay',  
+  ),  
+),
               DataTable(
    columns: [
      DataColumn(
