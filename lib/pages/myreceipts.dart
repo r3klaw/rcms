@@ -117,7 +117,7 @@ class _MyReceiptsState extends State<MyReceipts> {
       body: Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
-          DataTableDemo(),
+          
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             
