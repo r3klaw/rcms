@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rcms/pages/home.dart';
 
 class DataTableDemo extends StatelessWidget {
   Widget build(BuildContext context) {
@@ -130,6 +131,7 @@ class _MyReceiptsState extends State<MyReceipts> {
           ],
         ),
       ),
+      Home(),
     );
   }
 }
