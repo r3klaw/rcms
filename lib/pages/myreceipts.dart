@@ -31,7 +31,7 @@ class _MyReceiptsState extends State<MyReceipts> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             
-            Text('My Receipts'),
+           header: Text('My Receipts'),
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
               SizedBox(height: 10.0),
