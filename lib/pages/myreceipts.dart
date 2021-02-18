@@ -38,9 +38,7 @@ class _MyReceiptsState extends State<MyReceipts> {
       ),
     );
   }
-}
-
-class DataTableDemo extends StatelessWidget {
+  class DataTableDemo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -130,4 +128,5 @@ class _DataSource extends DataTableSource {
 
   @override
   int get selectedRowCount => _selectedCount;
+}
 }
