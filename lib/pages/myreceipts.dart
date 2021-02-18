@@ -93,8 +93,6 @@ class _DataSource extends DataTableSource {
   int get selectedRowCount => _selectedCount;
 }
 
-Home()
-
 class MyReceipts extends StatefulWidget {
   @override
   _MyReceiptsState createState() => _MyReceiptsState();
@@ -117,6 +115,7 @@ class _MyReceiptsState extends State<MyReceipts> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
+      Home(),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
