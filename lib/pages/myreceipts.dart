@@ -37,7 +37,8 @@ class _MyReceiptsState extends State<MyReceipts> {
               
 
           ],
-          DataTable(
+        ),
+        DataTable(
    columns: [
      DataColumn(
        label: Text('Entity Name'),
@@ -73,7 +74,6 @@ class _MyReceiptsState extends State<MyReceipts> {
      ),
    ],
  ),
-        ),
       ),
     );
   }
