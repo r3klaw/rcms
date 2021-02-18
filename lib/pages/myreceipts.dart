@@ -43,6 +43,39 @@ class _MyReceiptsState extends State<MyReceipts> {
     hintText: 'Enter search keyword',  
   ),  
 ),
+
+Row(
+          children: <Widget>[
+            Expanded(
+              child: TextField(
+                controller: _textController,
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.all(10),
+                  hintText: 'Search',
+                  border: border,
+                  errorBorder: border,
+                  disabledBorder: border,
+                  focusedBorder: border,
+                  focusedErrorBorder: border,
+                  suffixIcon: IconButton(
+                    icon: Icon(Icons.clear),
+                    onPressed: () {
+                      _textController.clear();
+                    },
+                  ),
+                ),
+              ),
+            ),
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.blue[800],
+                borderRadius: BorderRadius.only(topRight: Radius.circular(10))
+              ),
+              child: IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
+            )
+          ],
+        ),
+
               DataTable(
    columns: [
      DataColumn(
