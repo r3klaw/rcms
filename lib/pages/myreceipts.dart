@@ -115,7 +115,7 @@ class _MyReceiptsState extends State<MyReceipts> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      body: Home(Padding(
+      body: Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
           
@@ -130,7 +130,7 @@ class _MyReceiptsState extends State<MyReceipts> {
             
           ],
         ),
-      ),),
+      ),
     );
   }
 }
