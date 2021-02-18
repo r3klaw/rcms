@@ -121,11 +121,7 @@ class _MyReceiptsState extends State<MyReceipts> {
           
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            CardCategory(
-  tap: () {},
-  title: "Big title",
-  img: "https://via.placeholder.com/150"
-),
+            
             Text('My Receipts'),
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
