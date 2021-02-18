@@ -36,58 +36,26 @@ class _MyReceiptsState extends State<MyReceipts> {
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
               SizedBox(height: 10.0),
               TextField (  
-  decoration: InputDecoration(  
-    border: OutlineInputBorder(),
-    // child: Icon(Icons.search),
-    labelText: 'Search',  
-    hintText: 'Enter search keyword',  
-  ),  
-),
-
-Row(
-          children: <Widget>[
-            Expanded(
-              child: TextField(
-                controller: _textController,
-                decoration: InputDecoration(
-                  contentPadding: EdgeInsets.all(10),
-                  hintText: 'Search',
-                  border: border,
-                  errorBorder: border,
-                  disabledBorder: border,
-                  focusedBorder: border,
-                  focusedErrorBorder: border,
-                  suffixIcon: IconButton(
-                    icon: Icon(Icons.clear),
-                    onPressed: () {
-                      _textController.clear();
-                    },
-                  ),
-                ),
-              ),
+              decoration: InputDecoration(  
+              border: OutlineInputBorder(),
+              // child: Icon(Icons.search),
+              labelText: 'Search',  
+              hintText: 'Enter search keyword',  
+              ),  
             ),
-            Container(
-              decoration: BoxDecoration(
-                color: Colors.blue[800],
-                borderRadius: BorderRadius.only(topRight: Radius.circular(10))
-              ),
-              child: IconButton(icon: Icon(Icons.search, color: Colors.white,), onPressed: (){}),
-            )
-          ],
-        ),
 
               DataTable(
-   columns: [
-     DataColumn(
-       label: Text('Entity Name'),
-     ),
-     DataColumn(
-       label: Text('B/S No'),
-     ),
-     DataColumn(
-       label: Text('Last Billed'),
-     ),
-   ],
+              columns: [
+              DataColumn(
+               label: Text('Entity Name'),
+            ),
+               DataColumn(
+             label: Text('B/S No'),
+            ),
+               DataColumn(
+              label: Text('Last Billed'),
+           ),
+           ],
    rows: const <DataRow>[
      DataRow(
        cells: <DataCell>[
