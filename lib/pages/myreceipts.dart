@@ -49,23 +49,16 @@ class _MyReceiptsState extends State<MyReceipts> {
    rows: const <DataRow>[
      DataRow(
        cells: <DataCell>[
-         DataCell(Text('Sarah')),
-         DataCell(Text('19')),
-         DataCell(Text('Student')),
+         DataCell(Text('Matalan ICT')),
+         DataCell(Text('BNo 1')),
+         DataCell(Text('31/12/020')),
        ],
      ),
      DataRow(
        cells: <DataCell>[
-         DataCell(Text('Janine')),
-         DataCell(Text('43')),
-         DataCell(Text('Professor')),
-       ],
-     ),
-     DataRow(
-       cells: <DataCell>[
-         DataCell(Text('William')),
-         DataCell(Text('27')),
-         DataCell(Text('Associate Professor')),
+         DataCell(Text('residence')),
+         DataCell(Text('ISH20--23')),
+         DataCell(Text('02/06/020')),
        ],
      ),
    ],
