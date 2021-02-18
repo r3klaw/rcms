@@ -125,7 +125,43 @@ class _MyReceiptsState extends State<MyReceipts> {
             Text('My Receipts'),
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
-              
+              DataTable(
+   columns: [
+     DataColumn(
+       label: Text('Name'),
+     ),
+     DataColumn(
+       label: Text('Age'),
+     ),
+     DataColumn(
+       label: Text('Role'),
+     ),
+   ],
+   rows: const <DataRow>[
+     DataRow(
+       cells: <DataCell>[
+         DataCell(Text('Sarah')),
+         DataCell(Text('19')),
+         DataCell(Text('Student')),
+       ],
+     ),
+     DataRow(
+       cells: <DataCell>[
+         DataCell(Text('Janine')),
+         DataCell(Text('43')),
+         DataCell(Text('Professor')),
+       ],
+     ),
+     DataRow(
+       cells: <DataCell>[
+         DataCell(Text('William')),
+         DataCell(Text('27')),
+         DataCell(Text('Associate Professor')),
+       ],
+     ),
+   ],
+ ),
+
           ],
         ),
       ),
