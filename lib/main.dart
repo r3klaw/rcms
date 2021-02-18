@@ -40,6 +40,7 @@ void main() => runApp(MaterialApp(
     '/license': (context) => License(),
     '/services': (context) => Services(),
   },
+  Home(),
 ));
 
 class Home extends StatefulWidget {
