@@ -93,7 +93,7 @@ class _DataSource extends DataTableSource {
   int get selectedRowCount => _selectedCount;
 }
 
-Home(),
+Home()
 
 class MyReceipts extends StatefulWidget {
   @override
