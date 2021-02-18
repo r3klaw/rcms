@@ -115,7 +115,22 @@ class _MyReceiptsState extends State<MyReceipts> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      body: Home(),
+      body: Home(Padding(
+        padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
+        child: Column(
+          
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            
+            Text('My Receipts'),
+            SizedBox(height: 10.0),
+            Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
+            // SizedBox(height: 20.0),
+            
+            
+          ],
+        ),
+      ),),
     );
   }
 }
