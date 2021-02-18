@@ -93,6 +93,8 @@ class _DataSource extends DataTableSource {
   int get selectedRowCount => _selectedCount;
 }
 
+Home(),
+
 class MyReceipts extends StatefulWidget {
   @override
   _MyReceiptsState createState() => _MyReceiptsState();
@@ -126,7 +128,7 @@ class _MyReceiptsState extends State<MyReceipts> {
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
             // SizedBox(height: 20.0),
-            Home(),
+            
             
           ],
         ),
