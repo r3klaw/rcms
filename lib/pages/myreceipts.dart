@@ -40,7 +40,7 @@ class _MyReceiptsState extends State<MyReceipts> {
               border: OutlineInputBorder(),
               // child: Icon(Icons.search),
               labelText: 'Search',  
-              prefixIcon: Icon(Icons.email),
+              prefixIcon: Icon(Icons.search),
               hintText: 'Enter search keyword',  
               ),  
             ),
