@@ -34,11 +34,7 @@ class _MyReceiptsState extends State<MyReceipts> {
             Text('My Receipts'),
             SizedBox(height: 10.0),
             Text('Search for your receipts using unique identifier, e.g House number, Vehicle registration number'),
-              
-
-          ],
-        ),
-        DataTable(
+              DataTable(
    columns: [
      DataColumn(
        label: Text('Entity Name'),
@@ -74,6 +70,9 @@ class _MyReceiptsState extends State<MyReceipts> {
      ),
    ],
  ),
+
+          ],
+        ),
       ),
     );
   }
