@@ -44,11 +44,7 @@ class _MyAssetsState extends State<MyAssets> {
               ),  
             ),
 
-              
-
-          ],
-        ),
-        bottom: TabBar(
+              bottom: TabBar(
               tabs: [
                 Tab(icon: Icon(Icons.directions_car)),
                 Tab(icon: Icon(Icons.directions_transit)),
@@ -64,6 +60,9 @@ class _MyAssetsState extends State<MyAssets> {
               Icon(Icons.directions_bike),
             ],
           ),
+
+          ],
+        ),
       ),
     );
   }
