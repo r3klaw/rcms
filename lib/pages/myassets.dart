@@ -21,13 +21,6 @@ class _MyAssetsState extends State<MyAssets> {
       ],
         backgroundColor: Colors.blue,
         elevation: 0.0,
-        bottom: TabBar(
-              tabs: [
-                Tab(icon: Icon(Icons.directions_car)),
-                Tab(icon: Icon(Icons.directions_transit)),
-                Tab(icon: Icon(Icons.directions_bike)),
-              ],
-            ),
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
@@ -52,7 +45,13 @@ class _MyAssetsState extends State<MyAssets> {
             ),
             
 
-              
+              TabBar(
+              tabs: [
+                Tab(icon: Icon(Icons.directions_car)),
+                Tab(icon: Icon(Icons.directions_transit)),
+                Tab(icon: Icon(Icons.directions_bike)),
+              ],
+            ),
             TabBarView(
             children: [
               Icon(Icons.directions_car),
