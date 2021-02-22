@@ -50,7 +50,7 @@ class _HistoryState extends State<History> {
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: <Widget>[
               Container(
                 child: TabBar(
-                  labelColor: Colors.green,
+                  labelColor: Colors.Blue,
                   unselectedLabelColor: Colors.black,
                   tabs: [
                     Tab(text: 'All'),
