@@ -43,26 +43,7 @@ class _MyAssetsState extends State<MyAssets> {
               hintText: 'Search using unique identifier e.g House No',  
               ),  
             ),
-
-            Container(
-        alignment: Alignment.center,
-        child: Container(
-          width: 300,
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              border: Border.all(
-                  width: 1, color: Colors.purple, style: BorderStyle.solid)),
-          child: TextField(
-            minLines: 10,
-            maxLines: 20,
-            decoration: InputDecoration(
-                hintText: 'Type someting here',
-                contentPadding: EdgeInsets.all(15),
-                border: InputBorder.none),
-            onChanged: (value) {},
-          ),
-        ),
-      ),
+            
 
               TabBar(
               tabs: [
