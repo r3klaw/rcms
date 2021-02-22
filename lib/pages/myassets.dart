@@ -51,6 +51,13 @@ class _MyAssetsState extends State<MyAssets> {
                 Tab(icon: Icon(Icons.directions_bike)),
               ],
             ),
+            TabBarView(
+            children: [
+              Icon(Icons.directions_car),
+              Icon(Icons.directions_transit),
+              Icon(Icons.directions_bike),
+            ],
+          ),
 
           ],
         ),
