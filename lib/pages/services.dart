@@ -22,36 +22,7 @@ class _ServicesState extends State<Services> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-       body: Container(
-          margin: EdgeInsets.symmetric(vertical: 20.0),
-          height: 200.0,
-          child: ListView(
-            scrollDirection: Axis.horizontal,
-            children: <Widget>[
-              Container(
-                width: 160.0,
-                color: Colors.red,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.blue,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.green,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.yellow,
-              ),
-              Container(
-                width: 160.0,
-                color: Colors.orange,
-              ),
-            ],
-          ),
-        ),
-        rows: Row(
+       body: Row(
   children: <Widget>[
     Expanded(
       child: Text('Deliver features faster', textAlign: TextAlign.center),
@@ -66,8 +37,37 @@ class _ServicesState extends State<Services> {
       ),
     ),
   ],
-)
+),
 
+      //  Container(
+      //     margin: EdgeInsets.symmetric(vertical: 20.0),
+      //     height: 200.0,
+      //     child: ListView(
+      //       scrollDirection: Axis.horizontal,
+      //       children: <Widget>[
+      //         Container(
+      //           width: 160.0,
+      //           color: Colors.red,
+      //         ),
+      //         Container(
+      //           width: 160.0,
+      //           color: Colors.blue,
+      //         ),
+      //         Container(
+      //           width: 160.0,
+      //           color: Colors.green,
+      //         ),
+      //         Container(
+      //           width: 160.0,
+      //           color: Colors.yellow,
+      //         ),
+      //         Container(
+      //           width: 160.0,
+      //           color: Colors.orange,
+      //         ),
+      //       ],
+      //     ),
+      //   ),
     );
   }
 }
