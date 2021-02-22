@@ -80,6 +80,64 @@ class _ServicesState extends State<Services> {
     ),
   ],
 ),
+Row(
+  children: <Widget>[
+    Expanded(
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
+    ),
+    Expanded(
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
+    ),
+    Expanded(
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
+    ),
+  ],
+),
 
       //  Container(
       //     margin: EdgeInsets.symmetric(vertical: 20.0),
