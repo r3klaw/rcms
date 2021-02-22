@@ -33,10 +33,10 @@ class _ServicesState extends State<Services> {
       context: context,
       tiles: [
           ListTile(
-            title: Text('Business_no1'),
-            trailing: Icon(Icons.keyboard_arrow_right),
+            title: Text('Parking fee'),
+            // trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
+              Navigator.pushNamed(context, '/license');
             },
           ), 
         ],
@@ -51,10 +51,10 @@ class _ServicesState extends State<Services> {
       context: context,
       tiles: [
           ListTile(
-            title: Text('Business_no1'),
+            title: Text('Vehicle Transit'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
+              Navigator.pushNamed(context, '/license');
             },
           ), 
         ],
@@ -69,10 +69,10 @@ class _ServicesState extends State<Services> {
       context: context,
       tiles: [
           ListTile(
-            title: Text('Business_no1'),
+            title: Text('Linces'),
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
-              Navigator.pushNamed(context, '/businessdetails');
+              Navigator.pushNamed(context, '/license');
             },
           ), 
         ],
