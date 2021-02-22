@@ -32,6 +32,8 @@ class _MyAssetsState extends State<MyAssets> {
         ),
       ),
     );
+  }
+}
 //     return Scaffold(
 //       appBar: AppBar(
 //         // leading: Icon(Icons.menu),
