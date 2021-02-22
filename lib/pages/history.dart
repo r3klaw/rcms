@@ -95,6 +95,9 @@ class _HistoryState extends State<History> {
                DataColumn(
               label: Text('Last Billed'),
            ),
+           DataColumn(
+              label: Text('Amount'),
+           ),
            ],
    rows: const <DataRow>[
      DataRow(
@@ -105,13 +108,7 @@ class _HistoryState extends State<History> {
           // onTap: () {
             // Navigator.pushNamed(context, '/businessqr');}
             ),
-       ],
-     ),
-     DataRow(
-       cells: <DataCell>[
-         DataCell(Text('residence')),
-         DataCell(Text('ISH20--23')),
-         DataCell(Text('02/06/020')),
+            DataCell(Text('3000 USD')),
        ],
      ),
    ],
