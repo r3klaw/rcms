@@ -22,7 +22,7 @@ void main() => runApp(MaterialApp(
   // home: Home(),
   // initialRoute: '/signin',
   routes: {
-    '/': (context) => Home(),
+    '/': (context) => MyAssets(),
     '/home': (context) => Home(),
     '/signup': (context) => Signup(),
     '/signin': (context) => Signin(),
@@ -39,6 +39,7 @@ void main() => runApp(MaterialApp(
     '/myreceipts': (context) => MyReceipts(),
     '/license': (context) => License(),
     '/services': (context) => Services(),
+    '/myassets': (context) => MyAssets(),
   },
 ));
 
