@@ -44,7 +44,7 @@ class _MyAssetsState extends State<MyAssets> {
               ),  
             ),
 
-              bottom: TabBar(
+              TabBar(
               tabs: [
                 Tab(icon: Icon(Icons.directions_car)),
                 Tab(icon: Icon(Icons.directions_transit)),
