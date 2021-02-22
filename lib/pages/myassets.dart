@@ -44,38 +44,22 @@ class _MyAssetsState extends State<MyAssets> {
               ),  
             ),
 
-              DataTable(
-              columns: [
-              DataColumn(
-               label: Text('Entity Name'),
+              bottom: TabBar(
+              tabs: [
+                Tab(icon: Icon(Icons.directions_car)),
+                Tab(icon: Icon(Icons.directions_transit)),
+                Tab(icon: Icon(Icons.directions_bike)),
+              ],
             ),
-               DataColumn(
-             label: Text('B/S No'),
-            ),
-               DataColumn(
-              label: Text('Last Billed'),
-           ),
-           ],
-   rows: const <DataRow>[
-     DataRow(
-       cells: <DataCell>[
-         DataCell(Text('Matalan ICT')),
-         DataCell(Text('BNo 1')),
-         DataCell(Text('31/12/020'),
-          // onTap: () {
-            // Navigator.pushNamed(context, '/businessqr');}
-            ),
-       ],
-     ),
-     DataRow(
-       cells: <DataCell>[
-         DataCell(Text('residence')),
-         DataCell(Text('ISH20--23')),
-         DataCell(Text('02/06/020')),
-       ],
-     ),
-   ],
- ),
+            title: Text('Tabs Demo'),
+          ),
+          body: TabBarView(
+            children: [
+              Icon(Icons.directions_car),
+              Icon(Icons.directions_transit),
+              Icon(Icons.directions_bike),
+            ],
+          ),
 
           ],
         ),
