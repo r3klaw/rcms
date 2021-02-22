@@ -50,7 +50,7 @@ class _ServicesState extends State<Services> {
               ),
             ],
           ),
-          child: Row(
+        rows: Row(
   children: <Widget>[
     Expanded(
       child: Text('Deliver features faster', textAlign: TextAlign.center),
