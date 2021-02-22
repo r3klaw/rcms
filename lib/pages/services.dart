@@ -43,13 +43,40 @@ class _ServicesState extends State<Services> {
   ),
     ),
     Expanded(
-      child: Text('Craft beautiful UIs', textAlign: TextAlign.center),
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
     ),
     Expanded(
-      child: FittedBox(
-        fit: BoxFit.contain, // otherwise the logo will be tiny
-        child: const FlutterLogo(),
-      ),
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
     ),
   ],
 ),
