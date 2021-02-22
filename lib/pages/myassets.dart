@@ -60,6 +60,7 @@ class _MyAssetsState extends State<MyAssets> {
               Icon(Icons.directions_bike),
             ],
           ),
+      ),
 
           ],
         ),
