@@ -58,11 +58,12 @@ class _MyAssetsState extends State<MyAssets> {
                     Tab(text: 'Tab 2'),
                     Tab(text: 'Tab 3'),
                     Tab(text: 'Tab 4'),
+                    Tab(text: 'Tab 5'),
                   ],
                 ),
               ),
               Container(
-                height: 400, //height of TabBarView
+                height: 200, //height of TabBarView
                 decoration: BoxDecoration(
                   border: Border(top: BorderSide(color: Colors.grey, width: 0.5))
                 ),
@@ -85,6 +86,11 @@ class _MyAssetsState extends State<MyAssets> {
                   Container(
                     child: Center(
                       child: Text('Display Tab 4', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                    ),
+                  ),
+                  Container(
+                    child: Center(
+                      child: Text('Display Tab 5', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                     ),
                   ),
                 ])
