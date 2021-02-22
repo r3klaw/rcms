@@ -35,7 +35,7 @@ class _MyAssetsState extends State<MyAssets> {
               SizedBox(height: 10.0),
               TextField (  
               decoration: InputDecoration(  
-              border: UnderlineInputBorder(
+              border: OutlineInputBorder(
                 borderRadius:BorderRadius.circular(5.0)
               ),
               labelText: 'Search',  
