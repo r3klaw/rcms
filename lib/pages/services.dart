@@ -27,6 +27,8 @@ class _ServicesState extends State<Services> {
           children: List.generate(6, (index) {
             return CustomContainer(number: index+1,);
           }),
+       ),
+    );
 
           class CustomContainer extends StatelessWidget {
   final int number;
