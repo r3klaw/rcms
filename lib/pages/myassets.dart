@@ -21,7 +21,7 @@ class _MyAssetsState extends State<MyAssets> {
       ],
         backgroundColor: Colors.blue,
         elevation: 0.0,
-        TabBar(
+        bottom: TabBar(
               tabs: [
                 Tab(icon: Icon(Icons.directions_car)),
                 Tab(icon: Icon(Icons.directions_transit)),
