@@ -22,89 +22,65 @@ class _ServicesState extends State<Services> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-       body: GridView.count(
-          crossAxisCount: 2,
-          children: List.generate(6, (index) {
-            return CustomContainer(number: index+1,);
-          }),
-       ),
-    );
-
-          class CustomContainer extends StatelessWidget {
-  final int number;
-  CustomContainer({@required this.number});
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () => print("Hallo, $number wurde geklickt"),
-      onDoubleTap: () => print("Hallo, $number wurde geklickt"),
-      child: Container(
-        child: Card(
-          child: Center(child: Text(number.toString())),
-        ),
-      ),
-    );
-  }
-}
-//        Row(
-//   children: <Widget>[
-//     Expanded(
-//       child: ListView(
-//   // padding: const EdgeInsets.all(8),
-//   // children: <Widget>[
-//     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-//       context: context,
-//       tiles: [
-//           ListTile(
-//             title: Text('Business_no1'),
-//             trailing: Icon(Icons.keyboard_arrow_right),
-//             onTap: () {
-//               Navigator.pushNamed(context, '/businessdetails');
-//             },
-//           ), 
-//         ],
-//     ).toList(),
-//   ),
-//     ),
-//     Expanded(
-//       child: ListView(
-//   // padding: const EdgeInsets.all(8),
-//   // children: <Widget>[
-//     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-//       context: context,
-//       tiles: [
-//           ListTile(
-//             title: Text('Business_no1'),
-//             trailing: Icon(Icons.keyboard_arrow_right),
-//             onTap: () {
-//               Navigator.pushNamed(context, '/businessdetails');
-//             },
-//           ), 
-//         ],
-//     ).toList(),
-//   ),
-//     ),
-//     Expanded(
-//       child: ListView(
-//   // padding: const EdgeInsets.all(8),
-//   // children: <Widget>[
-//     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-//       context: context,
-//       tiles: [
-//           ListTile(
-//             title: Text('Business_no1'),
-//             trailing: Icon(Icons.keyboard_arrow_right),
-//             onTap: () {
-//               Navigator.pushNamed(context, '/businessdetails');
-//             },
-//           ), 
-//         ],
-//     ).toList(),
-//   ),
-//     ),
-//   ],
-// ),
+       body: 
+       Row(
+  children: <Widget>[
+    Expanded(
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
+    ),
+    Expanded(
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
+    ),
+    Expanded(
+      child: ListView(
+  // padding: const EdgeInsets.all(8),
+  // children: <Widget>[
+    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+          ListTile(
+            title: Text('Business_no1'),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            onTap: () {
+              Navigator.pushNamed(context, '/businessdetails');
+            },
+          ), 
+        ],
+    ).toList(),
+  ),
+    ),
+  ],
+),
 
       //  Container(
       //     margin: EdgeInsets.symmetric(vertical: 20.0),
