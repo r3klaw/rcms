@@ -27,6 +27,24 @@ class _ServicesState extends State<Services> {
           children: List.generate(6, (index) {
             return CustomContainer(number: index+1,);
           }),
+
+          class CustomContainer extends StatelessWidget {
+  final int number;
+  CustomContainer({@required this.number});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: () => print("Hallo, $number wurde geklickt"),
+      onDoubleTap: () => print("Hallo, $number wurde geklickt"),
+      child: Container(
+        child: Card(
+          child: Center(child: Text(number.toString())),
+        ),
+      ),
+    );
+  }
+}
 //        Row(
 //   children: <Widget>[
 //     Expanded(
