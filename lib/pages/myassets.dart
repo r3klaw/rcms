@@ -53,6 +53,7 @@ class _MyAssetsState extends State<MyAssets> {
                 child: TabBar(
                   labelColor: Colors.green,
                   unselectedLabelColor: Colors.black,
+                  backgroundColor: Colors.blue,
                   tabs: [
                     Tab(text: 'All'),
                     Tab(text: 'Houses'),
