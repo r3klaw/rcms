@@ -52,7 +52,7 @@ class _LicenseState extends State<License> {
       tiles: [
           ListTile(
             title: Text('Print License'),
-            trailing: Icon(Icons.keyboard_arrow_right),
+            // trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
               Navigator.pushNamed(context, '/renewlicense');
             },
@@ -70,7 +70,7 @@ class _LicenseState extends State<License> {
       tiles: [
           ListTile(
             title: Text('Receipt'),
-            trailing: Icon(Icons.keyboard_arrow_right),
+            // trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
               Navigator.pushNamed(context, '/renewlicense');
             },

@@ -52,7 +52,7 @@ class _ServicesState extends State<Services> {
       tiles: [
           ListTile(
             title: Text('Vehicle Transit'),
-            trailing: Icon(Icons.keyboard_arrow_right),
+            // trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
               Navigator.pushNamed(context, '/license');
             },
@@ -70,7 +70,7 @@ class _ServicesState extends State<Services> {
       tiles: [
           ListTile(
             title: Text('Linces'),
-            trailing: Icon(Icons.keyboard_arrow_right),
+            // trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {
               Navigator.pushNamed(context, '/license');
             },
