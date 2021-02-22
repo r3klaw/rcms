@@ -26,7 +26,7 @@ class _ServicesState extends State<Services> {
   children: <Widget>[
     Expanded(
       child: ListView(
-  padding: const EdgeInsets.all(8),
+  // padding: const EdgeInsets.all(8),
   // children: <Widget>[
     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
       context: context,
