@@ -46,7 +46,7 @@ class _MyAssetsState extends State<MyAssets> {
             
 
                DefaultTabController(
-            length: 4, // length of tabs
+            length: 5, // length of tabs
             initialIndex: 0,
             child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: <Widget>[
               Container(
@@ -54,11 +54,11 @@ class _MyAssetsState extends State<MyAssets> {
                   labelColor: Colors.green,
                   unselectedLabelColor: Colors.black,
                   tabs: [
-                    Tab(text: 'Tab 1'),
-                    Tab(text: 'Tab 2'),
-                    Tab(text: 'Tab 3'),
-                    Tab(text: 'Tab 4'),
-                    Tab(text: 'Tab 5'),
+                    Tab(text: 'All'),
+                    Tab(text: 'Houses'),
+                    Tab(text: 'Vehicles'),
+                    Tab(text: 'Business'),
+                    Tab(text: 'Stalls'),
                   ],
                 ),
               ),
@@ -70,27 +70,27 @@ class _MyAssetsState extends State<MyAssets> {
                 child: TabBarView(children: <Widget>[
                   Container(
                     child: Center(
-                      child: Text('Display Tab 1', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      child: Text('All', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                     ),
                   ),
                   Container(
                     child: Center(
-                      child: Text('Display Tab 2', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      child: Text('Houses', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                     ),
                   ),
                   Container(
                     child: Center(
-                      child: Text('Display Tab 3', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      child: Text('Vehicles', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                     ),
                   ),
                   Container(
                     child: Center(
-                      child: Text('Display Tab 4', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      child: Text('Business', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                     ),
                   ),
                   Container(
                     child: Center(
-                      child: Text('Display Tab 5', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      child: Text('Stalls', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
                     ),
                   ),
                 ])
