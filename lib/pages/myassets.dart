@@ -8,6 +8,30 @@ class MyAssets extends StatefulWidget {
 class _MyAssetsState extends State<MyAssets> {
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+          appBar: AppBar(
+            title: Text('Fixed Tabs'),
+            automaticallyImplyLeading: false,
+            backgroundColor: Color(0xff5808e5),
+            bottom: TabBar(
+              indicatorColor: Colors.white,
+              tabs: [
+                Tab(text: 'DOGS', icon: Icon(Icons.favorite)),
+                Tab(text: 'CATS', icon: Icon(Icons.music_note)),
+                Tab(text: 'BIRDS', icon: Icon(Icons.search)),
+              ],
+            ),
+          ),
+          body: TabBarView(
+            children: [
+                Center(child: Text('DOGS')),
+                Center(child: Text('CATS')),
+                Center(child: Text('BIRDS')),
+            ],
+          ),
+        ),
+      ),
+    );
 //     return Scaffold(
 //       appBar: AppBar(
 //         // leading: Icon(Icons.menu),
@@ -67,27 +91,3 @@ class _MyAssetsState extends State<MyAssets> {
 //   }
 // }
 
-Scaffold(
-          appBar: AppBar(
-            title: Text('Fixed Tabs'),
-            automaticallyImplyLeading: false,
-            backgroundColor: Color(0xff5808e5),
-            bottom: TabBar(
-              indicatorColor: Colors.white,
-              tabs: [
-                Tab(text: 'DOGS', icon: Icon(Icons.favorite)),
-                Tab(text: 'CATS', icon: Icon(Icons.music_note)),
-                Tab(text: 'BIRDS', icon: Icon(Icons.search)),
-              ],
-            ),
-          ),
-          body: TabBarView(
-            children: [
-                Center(child: Text('DOGS')),
-                Center(child: Text('CATS')),
-                Center(child: Text('BIRDS')),
-            ],
-          ),
-        ),
-      ),
-    );
