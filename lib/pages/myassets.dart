@@ -51,7 +51,7 @@ class _MyAssetsState extends State<MyAssets> {
                 Tab(icon: Icon(Icons.directions_bike)),
               ],
             ),
-            title: Text('Tabs Demo'),
+            // title: Text('Tabs Demo'),
           ),
           TabBarView(
             children: [
