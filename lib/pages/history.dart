@@ -75,6 +75,59 @@ class _HistoryState extends State<History> {
    ],
  ),
 
+ DefaultTabController(
+            length: 5, // length of tabs
+            initialIndex: 0,
+            child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: <Widget>[
+              Container(
+                child: TabBar(
+                  labelColor: Colors.green,
+                  unselectedLabelColor: Colors.black,
+                  tabs: [
+                    Tab(text: 'All'),
+                    Tab(text: 'Houses'),
+                    Tab(text: 'Vehicles'),
+                    Tab(text: 'Business'),
+                    Tab(text: 'Stalls'),
+                  ],
+                ),
+              ),
+              Container(
+                height: 200, //height of TabBarView
+                decoration: BoxDecoration(
+                  border: Border(top: BorderSide(color: Colors.grey, width: 0.5))
+                ),
+                child: TabBarView(children: <Widget>[
+                  Container(
+                    child: Center(
+                      child: Text('All', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                    ),
+                  ),
+                  Container(
+                    child: Center(
+                      child: Text('Houses', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                    ),
+                  ),
+                  Container(
+                    child: Center(
+                      child: Text('Vehicles', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                    ),
+                  ),
+                  Container(
+                    child: Center(
+                      child: Text('Business', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                    ),
+                  ),
+                  Container(
+                    child: Center(
+                      child: Text('Stalls', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                    ),
+                  ),
+                ])
+              )
+            ])
+          ),
+
           ],
         ),
       ),
