@@ -80,7 +80,7 @@ class _ServicesState extends State<Services> {
     ),
   ],
 ),
-Row(
+rows: Row(
   children: <Widget>[
     Expanded(
       child: ListView(
