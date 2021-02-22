@@ -42,38 +42,7 @@ class _HistoryState extends State<History> {
               ),  
             ),
 
-              DataTable(
-              columns: [
-              DataColumn(
-               label: Text('Entity Name'),
-            ),
-               DataColumn(
-             label: Text('B/S No'),
-            ),
-               DataColumn(
-              label: Text('Last Billed'),
-           ),
-           ],
-   rows: const <DataRow>[
-     DataRow(
-       cells: <DataCell>[
-         DataCell(Text('Matalan ICT')),
-         DataCell(Text('BNo 1')),
-         DataCell(Text('31/12/020'),
-          // onTap: () {
-            // Navigator.pushNamed(context, '/businessqr');}
-            ),
-       ],
-     ),
-     DataRow(
-       cells: <DataCell>[
-         DataCell(Text('residence')),
-         DataCell(Text('ISH20--23')),
-         DataCell(Text('02/06/020')),
-       ],
-     ),
-   ],
- ),
+              
 
  DefaultTabController(
             length: 5, // length of tabs
@@ -115,7 +84,38 @@ class _HistoryState extends State<History> {
                   ),
                   Container(
                     child: Center(
-                      child: Text('Business', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+                      child: DataTable(
+              columns: [
+              DataColumn(
+               label: Text('Entity Name'),
+            ),
+               DataColumn(
+             label: Text('B/S No'),
+            ),
+               DataColumn(
+              label: Text('Last Billed'),
+           ),
+           ],
+   rows: const <DataRow>[
+     DataRow(
+       cells: <DataCell>[
+         DataCell(Text('Matalan ICT')),
+         DataCell(Text('BNo 1')),
+         DataCell(Text('31/12/020'),
+          // onTap: () {
+            // Navigator.pushNamed(context, '/businessqr');}
+            ),
+       ],
+     ),
+     DataRow(
+       cells: <DataCell>[
+         DataCell(Text('residence')),
+         DataCell(Text('ISH20--23')),
+         DataCell(Text('02/06/020')),
+       ],
+     ),
+   ],
+ ),
                     ),
                   ),
                   Container(
