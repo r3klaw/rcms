@@ -24,65 +24,7 @@ class _ServicesState extends State<Services> {
         elevation: 0.0,
       ),
        body:
-       Row(
-  children: <Widget>[
-    Expanded(
-      child: ListView(
-  // padding: const EdgeInsets.all(8),
-  // children: <Widget>[
-    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-      context: context,
-      tiles: [
-          ListTile(
-            title: Text('Parking fee'),
-            // trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/license');
-            },
-          ), 
-        ],
-    ).toList(),
-  ),
-    ),
-    Expanded(
-      child: ListView(
-  // padding: const EdgeInsets.all(8),
-  // children: <Widget>[
-    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-      context: context,
-      tiles: [
-          ListTile(
-            title: Text('Vehicle Transit'),
-            // trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/license');
-            },
-          ), 
-        ],
-    ).toList(),
-  ),
-    ),
-    Expanded(
-      child: ListView(
-  // padding: const EdgeInsets.all(8),
-  // children: <Widget>[
-    children: ListTile.divideTiles( //          <-- ListTile.divideTiles
-      context: context,
-      tiles: [
-          ListTile(
-            title: Text('Linces'),
-            // trailing: Icon(Icons.keyboard_arrow_right),
-            onTap: () {
-              Navigator.pushNamed(context, '/license');
-            },
-          ), 
-        ],
-    ).toList(),
-  ),
-    ),
-  ],
-),
-child: Container(
+       Container(
             // height: 200,
             child: GridView.count(
               scrollDirection: Axis.vertical,
@@ -121,6 +63,65 @@ child: Container(
               ],
             ),
           ),
+//        Row(
+//   children: <Widget>[
+//     Expanded(
+//       child: ListView(
+//   // padding: const EdgeInsets.all(8),
+//   // children: <Widget>[
+//     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+//       context: context,
+//       tiles: [
+//           ListTile(
+//             title: Text('Parking fee'),
+//             // trailing: Icon(Icons.keyboard_arrow_right),
+//             onTap: () {
+//               Navigator.pushNamed(context, '/license');
+//             },
+//           ), 
+//         ],
+//     ).toList(),
+//   ),
+//     ),
+//     Expanded(
+//       child: ListView(
+//   // padding: const EdgeInsets.all(8),
+//   // children: <Widget>[
+//     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+//       context: context,
+//       tiles: [
+//           ListTile(
+//             title: Text('Vehicle Transit'),
+//             // trailing: Icon(Icons.keyboard_arrow_right),
+//             onTap: () {
+//               Navigator.pushNamed(context, '/license');
+//             },
+//           ), 
+//         ],
+//     ).toList(),
+//   ),
+//     ),
+//     Expanded(
+//       child: ListView(
+//   // padding: const EdgeInsets.all(8),
+//   // children: <Widget>[
+//     children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+//       context: context,
+//       tiles: [
+//           ListTile(
+//             title: Text('Linces'),
+//             // trailing: Icon(Icons.keyboard_arrow_right),
+//             onTap: () {
+//               Navigator.pushNamed(context, '/license');
+//             },
+//           ), 
+//         ],
+//     ).toList(),
+//   ),
+//     ),
+//   ],
+// ),
+
 
 
       //  Container(
