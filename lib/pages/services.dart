@@ -82,7 +82,7 @@ class _ServicesState extends State<Services> {
     ),
   ],
 ),
-Container(
+child: Container(
             // height: 200,
             child: GridView.count(
               scrollDirection: Axis.vertical,
