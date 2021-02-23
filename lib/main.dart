@@ -42,9 +42,8 @@ void main() => runApp(MaterialApp(
     '/myassets': (context) => MyAssets(),
     '/history': (context) => History(),
   },
-));
 
-class _HomeState extends State<Home> {
+  class _HomeState extends State<Home> {
   int selectedPage = 0;
 
   final _pageOptions = [
@@ -110,4 +109,6 @@ class _HomeState extends State<Home> {
     );
   }
 }
+));
+
 
