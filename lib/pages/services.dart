@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rcms/pages/home.dart';
 
 class Services extends StatefulWidget {
   @override
@@ -79,6 +80,7 @@ class _ServicesState extends State<Services> {
     ).toList(),
   ),
     ),
+    bottomNavigationBar: BottomNavigation,
   ],
 ),
 
