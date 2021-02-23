@@ -23,24 +23,7 @@ class _ServicesState extends State<Services> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-       body: 
-       GridView.count(
-          crossAxisCount: 2,
-          children: <Widget>[
-            _customCard(
-              imageUrl: image1, item: item1, price: price1, count: count1
-            ),
-            _customCard(
-              imageUrl: image2, item: item2, price: price2, count: count2
-            ),
-            _customCard(
-              imageUrl: image3, item: item3, price: price3, count: count3
-            ),
-            _customCard(
-              imageUrl: image4, item: item4, price: price4, count: count4
-            ),
-          ],
-        ),
+       body:
        Row(
   children: <Widget>[
     Expanded(
