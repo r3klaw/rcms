@@ -80,9 +80,9 @@ class _ServicesState extends State<Services> {
     ).toList(),
   ),
     ),
-    bottomNavigationBar: BottomNavigation,
   ],
 ),
+bottomNavigationBar: Home,
 
       //  Container(
       //     margin: EdgeInsets.symmetric(vertical: 20.0),
