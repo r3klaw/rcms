@@ -81,8 +81,8 @@ class _ServicesState extends State<Services> {
   ),
     ),
   ],
+  bottomNavigationBar: BottomNavigation,
 ),
-bottomNavigationBar: Home,
 
       //  Container(
       //     margin: EdgeInsets.symmetric(vertical: 20.0),
