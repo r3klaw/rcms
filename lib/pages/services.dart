@@ -51,15 +51,7 @@ class _ServicesState extends State<Services> {
                 Card(
                   color: Colors.purpleAccent,
                 ),
-                Card(
-                  color: Colors.indigo,
-                ),
-                Card(
-                  color: Colors.black,
-                ),
-                Card(
-                  color: Colors.pinkAccent,
-                ),
+                
               ],
             ),
           ),
