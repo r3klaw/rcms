@@ -82,6 +82,45 @@ class _ServicesState extends State<Services> {
     ),
   ],
 ),
+Container(
+            // height: 200,
+            child: GridView.count(
+              scrollDirection: Axis.vertical,
+              crossAxisCount: 2,
+              children: [
+                Card(
+                  color: Colors.teal,
+                ),
+                Card(
+                  color: Colors.cyan,
+                ),
+                Card(
+                  color: Colors.yellowAccent,
+                ),
+                Card(
+                  color: Colors.deepOrange,
+                ),
+                Card(
+                  color: Colors.red,
+                ),
+                Card(
+                  color: Colors.yellow,
+                ),
+                Card(
+                  color: Colors.purpleAccent,
+                ),
+                Card(
+                  color: Colors.indigo,
+                ),
+                Card(
+                  color: Colors.black,
+                ),
+                Card(
+                  color: Colors.pinkAccent,
+                ),
+              ],
+            ),
+          ),
 
 
       //  Container(
