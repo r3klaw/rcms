@@ -10,7 +10,7 @@ class _ServicesState extends State<Services> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigation,
+      bottomNavigationBar: Home,
       appBar: AppBar(
         // leading: Icon(Icons.menu),
         title: const Text('Bdm Self Service App'),
