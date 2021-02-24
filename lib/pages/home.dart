@@ -21,8 +21,6 @@ class _HomeState extends State<Home> {
     MyAssets(),
     History(),
     Profile(),
-    License(),
-    // MyReceipts(),
     PopupMenuButton(
   icon: Icon(Icons.more_vert),
   itemBuilder: (BuildContext context) => <PopupMenuEntry>[
