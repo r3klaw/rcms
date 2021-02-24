@@ -55,7 +55,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/license');
               },
               child: Text('License'),
-              color: Colors.cyan,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
@@ -69,7 +69,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/mybills');
               },
               child: Text('Vehicle transit'),
-              color: Colors.yellowAccent,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
@@ -83,7 +83,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/mybills');
               },
               child: Text('My Bills'),
-              color: Colors.deepOrange,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
@@ -97,7 +97,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Land Rates'),
-              color: Colors.red,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
@@ -111,7 +111,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('My Receipts'),
-              color: Colors.yellow,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
