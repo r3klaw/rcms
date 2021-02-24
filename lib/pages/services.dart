@@ -33,7 +33,6 @@ class _ServicesState extends State<Services> {
                 Card(
                   color: Colors.teal,
                   child: FlatButton(
-                   backgroundImage: Image.asset('assets/rcmsbg.png'),
               shape: RoundedRectangleBorder(
               // borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.white)),
