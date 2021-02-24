@@ -19,7 +19,7 @@ import 'package:rcms/pages/services.dart';
 import 'package:rcms/pages/license.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
+  // home: Home(),
   initialRoute: '/signin',
   routes: {
     '/': (context) => Signin(),
