@@ -52,7 +52,7 @@ class _LicenseState extends State<License> {
                 Navigator.pushNamed(context, '/renewlicense');
               },
               child: Text('Print License'),
-              color: Colors.cyan,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
@@ -66,7 +66,7 @@ class _LicenseState extends State<License> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Receipts'),
-              color: Colors.yellowAccent,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ), 
