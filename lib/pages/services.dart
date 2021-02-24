@@ -32,6 +32,9 @@ class _ServicesState extends State<Services> {
               children: [
                 Card(
                   color: Colors.teal,
+                  onTap: () {
+              Navigator.pushNamed(context, '/license');
+              },
                 ),
                 Card(
                   color: Colors.cyan,
