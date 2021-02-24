@@ -46,18 +46,73 @@ class _ServicesState extends State<Services> {
                 ),
                 Card(
                   color: Colors.cyan,
+                  child: FlatButton(
+              shape: RoundedRectangleBorder(
+              // borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.white)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/myreceipts');
+              },
+              child: Text('Dasboard receipt'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
                 ),
                 Card(
                   color: Colors.yellowAccent,
+                  child: FlatButton(
+              shape: RoundedRectangleBorder(
+              // borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.white)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/myreceipts');
+              },
+              child: Text('Dasboard receipt'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
                 ),
                 Card(
                   color: Colors.deepOrange,
+                  child: FlatButton(
+              shape: RoundedRectangleBorder(
+              // borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.white)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/myreceipts');
+              },
+              child: Text('Dasboard receipt'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
                 ),
                 Card(
                   color: Colors.red,
+                  child: FlatButton(
+              shape: RoundedRectangleBorder(
+              // borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.white)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/myreceipts');
+              },
+              child: Text('Dasboard receipt'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
                 ),
                 Card(
                   color: Colors.yellow,
+                  child: FlatButton(
+              shape: RoundedRectangleBorder(
+              // borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.white)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/myreceipts');
+              },
+              child: Text('Dasboard receipt'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
                 ),
                 
               ],
