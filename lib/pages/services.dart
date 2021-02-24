@@ -37,9 +37,9 @@ class _ServicesState extends State<Services> {
               // borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.white)),
               onPressed: () {
-                Navigator.pushNamed(context, '/myreceipts');
+                Navigator.pushNamed(context, '/license');
               },
-              child: Text('Dasboard receipt'),
+              child: Text('Parking Fees'),
               color: Colors.teal,
               minWidth: 120.0,
             ),
@@ -51,9 +51,9 @@ class _ServicesState extends State<Services> {
               // borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.white)),
               onPressed: () {
-                Navigator.pushNamed(context, '/myreceipts');
+                Navigator.pushNamed(context, '/license');
               },
-              child: Text('Dasboard receipt'),
+              child: Text('License'),
               color: Colors.cyan,
               minWidth: 120.0,
             ),
@@ -65,9 +65,9 @@ class _ServicesState extends State<Services> {
               // borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.white)),
               onPressed: () {
-                Navigator.pushNamed(context, '/myreceipts');
+                Navigator.pushNamed(context, '/mybills');
               },
-              child: Text('Dasboard receipt'),
+              child: Text('Vehicle transit'),
               color: Colors.yellowAccent,
               minWidth: 120.0,
             ),
@@ -79,9 +79,9 @@ class _ServicesState extends State<Services> {
               // borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.white)),
               onPressed: () {
-                Navigator.pushNamed(context, '/myreceipts');
+                Navigator.pushNamed(context, '/mybills');
               },
-              child: Text('Dasboard receipt'),
+              child: Text('My Bills'),
               color: Colors.deepOrange,
               minWidth: 120.0,
             ),
@@ -95,7 +95,7 @@ class _ServicesState extends State<Services> {
               onPressed: () {
                 Navigator.pushNamed(context, '/myreceipts');
               },
-              child: Text('Dasboard receipt'),
+              child: Text('Land Rates'),
               color: Colors.red,
               minWidth: 120.0,
             ),
@@ -109,7 +109,7 @@ class _ServicesState extends State<Services> {
               onPressed: () {
                 Navigator.pushNamed(context, '/myreceipts');
               },
-              child: Text('Dasboard receipt'),
+              child: Text('My Receipts'),
               color: Colors.yellow,
               minWidth: 120.0,
             ),
