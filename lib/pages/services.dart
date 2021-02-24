@@ -28,7 +28,7 @@ class _ServicesState extends State<Services> {
             // height: 200,
             child: GridView.count(
               scrollDirection: Axis.vertical,
-              crossAxisCount: 3,
+              crossAxisCount: 2,
               children: [
                 Card(
                   color: Colors.teal,
