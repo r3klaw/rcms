@@ -31,9 +31,9 @@ class _ServicesState extends State<Services> {
               crossAxisCount: 2,
               children: [
                 Card(
-                  // color: Colors.teal,
-                backgroundImage: Image.asset('assets/rcmsbg.png'),
+                  color: Colors.teal,
                   child: FlatButton(
+                    Image.asset('assets/rcmsbg.png'),
               shape: RoundedRectangleBorder(
               // borderRadius: BorderRadius.circular(18.0),
               side: BorderSide(color: Colors.white)),
