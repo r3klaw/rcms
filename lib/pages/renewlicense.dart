@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rcms/pages/home.dart';
 
 class RenewLicense extends StatefulWidget {
   @override
@@ -22,7 +23,7 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      bottomNavigationBar: home,
+      bottomNavigationBar: Home,
       body: ListView(
   padding: const EdgeInsets.all(8),
   // children: <Widget>[
