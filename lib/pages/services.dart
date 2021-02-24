@@ -32,6 +32,17 @@ class _ServicesState extends State<Services> {
               children: [
                 Card(
                   color: Colors.teal,
+                  FlatButton(
+              shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(18.0),
+              side: BorderSide(color: Colors.green)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/myreceipts');
+              },
+              child: Text('Dasboard receipt'),
+              color: Colors.green,
+              minWidth: 120.0,
+            ),
                 ),
                 Card(
                   color: Colors.cyan,
