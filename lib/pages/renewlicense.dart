@@ -23,7 +23,6 @@ class _RenewLicenseState extends State<RenewLicense> {
         backgroundColor: Colors.blue,
         elevation: 0.0,
       ),
-      bottomNavigationBar: bottomNavigationBar,
       body: ListView(
   padding: const EdgeInsets.all(8),
   // children: <Widget>[
