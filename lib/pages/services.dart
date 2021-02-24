@@ -40,7 +40,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Dasboard receipt'),
-              color: Colors.green,
+              color: Colors.teal,
               minWidth: 120.0,
             ),
                 ),
@@ -54,7 +54,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Dasboard receipt'),
-              color: Colors.green,
+              color: Colors.cyan,
               minWidth: 120.0,
             ),
                 ),
@@ -68,7 +68,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Dasboard receipt'),
-              color: Colors.green,
+              color: Colors.yellowAccent,
               minWidth: 120.0,
             ),
                 ),
@@ -82,7 +82,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Dasboard receipt'),
-              color: Colors.green,
+              color: Colors.deepOrange,
               minWidth: 120.0,
             ),
                 ),
@@ -96,7 +96,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Dasboard receipt'),
-              color: Colors.green,
+              color: Colors.red,
               minWidth: 120.0,
             ),
                 ),
@@ -110,7 +110,7 @@ class _ServicesState extends State<Services> {
                 Navigator.pushNamed(context, '/myreceipts');
               },
               child: Text('Dasboard receipt'),
-              color: Colors.green,
+              color: Colors.yellow,
               minWidth: 120.0,
             ),
                 ),
