@@ -26,7 +26,6 @@ class _ServicesState extends State<Services> {
        body:
        Container(
             // height: 200,
-            Expanded(
             child: GridView.count(
               scrollDirection: Axis.vertical,
               crossAxisCount: 2,
@@ -118,7 +117,6 @@ class _ServicesState extends State<Services> {
                 
               ],
             ),
-          ),
           ),
     );
   }
