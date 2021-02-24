@@ -34,8 +34,8 @@ class _ServicesState extends State<Services> {
                   color: Colors.teal,
                   child: FlatButton(
               shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18.0),
-              side: BorderSide(color: Colors.white)),
+              // borderRadius: BorderRadius.circular(18.0),
+              // side: BorderSide(color: Colors.white)),
               onPressed: () {
                 Navigator.pushNamed(context, '/myreceipts');
               },
