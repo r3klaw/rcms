@@ -1,93 +1,45 @@
-/// Flutter code sample for BottomNavigationBar
-
-// This example shows a [BottomNavigationBar] as it is used within a [Scaffold]
-// widget. The [BottomNavigationBar] has three [BottomNavigationBarItem]
-// widgets and the [currentIndex] is set to index 0. The selected item is
-// amber. The `_onItemTapped` function changes the selected item's index
-// and displays a corresponding message in the center of the [Scaffold].
-//
-// ![A scaffold with a bottom navigation bar containing three bottom navigation
-// bar items. The first one is selected.](https://flutter.github.io/assets-for-api-docs/assets/material/bottom_navigation_bar.png)
-
 import 'package:flutter/material.dart';
+import 'package:rcms/pages/home.dart';
+import 'package:rcms/pages/signup.dart';
+import 'package:rcms/pages/signin.dart';
+import 'package:rcms/pages/resetpassword.dart';
+import 'package:rcms/pages/resetsuccess.dart';
+import 'package:rcms/pages/profile.dart';
+import 'package:rcms/pages/businessrenew.dart';
+import 'package:rcms/pages/businessinstruction.dart';
+import 'package:rcms/pages/renewlicense.dart';
+import 'package:rcms/pages/businessdetails.dart';
+import 'package:rcms/pages/mybills.dart';
+import 'package:rcms/pages/businessactive.dart';
+import 'package:rcms/pages/history.dart';
+import 'package:rcms/pages/businessqr.dart';
+import 'package:rcms/pages/myreceipts.dart';
+import 'package:rcms/pages/myassets.dart';
+import 'package:rcms/pages/services.dart';
+import 'package:rcms/pages/license.dart';
 
-void main() => runApp(MyApp());
-
-/// This is the main application widget.
-class MyApp extends StatelessWidget {
-  static const String _title = 'Flutter Code Sample';
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      home: MyStatefulWidget(),
-    );
-  }
-}
-
-/// This is the stateful widget that the main application instantiates.
-class MyStatefulWidget extends StatefulWidget {
-  MyStatefulWidget({Key key}) : super(key: key);
-
-  @override
-  _MyStatefulWidgetState createState() => _MyStatefulWidgetState();
-}
-
-/// This is the private State class that goes with MyStatefulWidget.
-class _MyStatefulWidgetState extends State<MyStatefulWidget> {
-  int _selectedIndex = 0;
-  static const TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'Index 0: Home',
-      style: optionStyle,
-    ),
-    Text(
-      'Index 1: Assets',
-      style: optionStyle,
-    ),
-    Text(
-      'Index 2: History',
-      style: optionStyle,
-    ),
-  ];
-
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Bdm Self Service App'),
-      ),
-      body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Assets',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.history),
-            label: 'History',
-          ),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
-        onTap: _onItemTapped,
-      ),
-    );
-  }
-}
+void main() => runApp(MaterialApp(
+  // home: Home(),
+  initialRoute: '/signin',
+  routes: {
+    '/': (context) => Signin(),
+    '/home': (context) => Home(),
+    '/signup': (context) => Signup(),
+    '/signin': (context) => Signin(),
+    '/resetpassword': (context) => ResetPassword(),
+    '/resetsuccess': (context) => Success(),
+    '/profile': (context) => Profile(),
+    '/businessrenew': (context) => BusinessRenew(),
+    '/businessinstruction': (context) => BusinessInstruction(),
+    '/renewlicense': (context) => RenewLicense(),
+    '/businessdetails': (context) => BusinessDetail(),
+    '/mybills': (context) => Mybills(),
+    '/businessactive': (context) => BusinessActive(),
+    '/businessqr': (context) => BusinessQr(),
+    '/myreceipts': (context) => MyReceipts(),
+    '/license': (context) => License(),
+    '/services': (context) => Services(),
+    '/myassets': (context) => MyAssets(),
+    '/history': (context) => History(),
+  },
+));
